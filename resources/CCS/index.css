@@ -30,6 +30,12 @@ h1 {
   font-size: 30px;
 }
   
+h2 {
+  color: black;
+  font-stretch: narrower;
+  font-size: 20px;
+}
+
 p, 
 li {
   font-size: 18fx;
@@ -226,8 +232,8 @@ summary::-webkit-details-marker {
   box-shadow: var(--border-window-outer), var(--border-window-inner); 
   padding: 3px; 
   background-color: rgb(180, 164, 178); 
-  border: 5px solid black; 
-  width: 800px;
+  border: 2px solid black; 
+  width: 700px;
   position: relative;
   margin: 20px;   
   display: inline-block;
@@ -244,20 +250,20 @@ summary::-webkit-details-marker {
 }
 
 .trigger-phrase {
-  padding: none;
+  padding: 2px;
+  padding-left: 9px;
   writing-mode:vertical-rl;
 }
 
 .title-bar {
   background: transparent;
   align-items: center;
-  width: fit-content;
+  width: 450px;
   text-align: center;
   display: inline-block;
   position: relative;
-  padding: none; 
-  border: 3px black solid; 
-  
+  padding: 8px; 
+  border: black 1px solid;  
 }
 
 .title-bar:hover {
@@ -271,6 +277,10 @@ summary::-webkit-details-marker {
     var(--dialog-gray),
     var(--dialog-gray-light)
   );
+}
+
+.icon {
+  padding: none;
 }
 
 @media (min-width: 1200px) {
