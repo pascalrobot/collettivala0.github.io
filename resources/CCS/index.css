@@ -21,7 +21,7 @@ a {
 } 
 
 a:hover {
-  color: #b4326c !important;
+  color: white !important;
 }
     
 h1 {
@@ -226,6 +226,12 @@ summary::-webkit-details-marker {
   text-align: center;
   margin-top: 150px;
   width: 100%;
+}
+
+.open-page {
+  padding: 10px; 
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .window {
