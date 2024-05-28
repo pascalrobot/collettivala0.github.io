@@ -256,20 +256,13 @@ summary::-webkit-details-marker {
   display: inline-block;
   position: relative;
   padding: none; 
+  border: 3px black solid; 
   
 }
 
 .title-bar:hover {
   background: #b4326c; 
-}
-
-.title-bar-text {
-  padding: 8px;
-  font-weight: bold;
-  color: #000000;
-  letter-spacing: 1;
-  font-size: 25px;
-  border: 2px solid black; 
+  box-shadow: 8px 8px 0 rgba(0, 28, 111);
 }
 
 .title-bar.inactive {
