@@ -255,7 +255,9 @@ summary::-webkit-details-marker {
   text-align: center;
   display: inline-block;
   position: relative;
-  padding:none;
+  padding: none;
+  borer: solid 2px black; 
+  
 }
 
 .title-bar:hover {
