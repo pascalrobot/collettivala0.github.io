@@ -255,8 +255,7 @@ summary::-webkit-details-marker {
   text-align: center;
   display: inline-block;
   position: relative;
-  padding: none;
-  border: solid 2px black; 
+  padding: none; 
   
 }
 
@@ -270,6 +269,7 @@ summary::-webkit-details-marker {
   color: #000000;
   letter-spacing: 1;
   font-size: 25px;
+  border: 2px solid black; 
 }
 
 .title-bar.inactive {
