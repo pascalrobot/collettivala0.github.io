@@ -91,6 +91,10 @@ body {
   max-width: 100%; 
 }
 
+.manifesto {
+  margin-top: 15px;
+}
+
 .container5 {
   background-color: rgb(148, 133, 133);
   padding: 20px;
@@ -118,6 +122,7 @@ body {
   font-size: 15px;
   line-height: 1.6;
   width: auto;
+  text-align: left;
 }
 
 .title2 {
@@ -216,7 +221,7 @@ summary::-webkit-details-marker {
 
 .window-body {
   margin: var(--element-spacing);
-  width: 100%;
+  width: auto;
   display: inline-block; 
   position: relative; 
   padding: 20px;
@@ -378,12 +383,15 @@ summary::-webkit-details-marker {
 .title-bar {
   background: transparent;
   align-items: center;
-  width: 650px;
+  width: 450px;
   text-align: center;
   display: inline-block;
   position: relative;
   padding: 8px; 
   border: black 1px solid;  
+  left: auto;
+  right: auto;
+  margin-bottom: 15px; 
 }
 
 } 
@@ -395,10 +403,11 @@ summary::-webkit-details-marker {
   padding: 40px;
   margin-left: 9%; 
   margin-right: 9%;
-  margin-top: 150px;
   border: 2px solid black;
   margin-bottom: 60px;
-  filter: drop-shadow(0 0 0.75rem rgb(54, 1, 75));
+  filter: drop-shadow(0 0 0.75rem rgb(54, 1, 75)); 
+  display: inline-block; 
+  position: relative; 
 }
 
 
@@ -457,8 +466,9 @@ summary::-webkit-details-marker {
   height: 100%;
   position: relative;
   margin: none;
+  margin-top: 15px;
   margin-bottom: 60px;
-  margin-top: 100px;
+  display: inline-block; 
 } 
 
 .grid-container {
@@ -489,13 +499,12 @@ summary::-webkit-details-marker {
 
 .title3 {
   text-align: center; 
-  padding: 20px;
+  padding: 5px;
   color: rgb(155, 148, 148);
   width: fit-content; 
   margin-left: 9px;
   margin-right: 9px;
   margin-bottom: 40px;
-  padding: 0.3rem 3.4rem;
   border: 2px solid black;
   box-shadow: 6px 6px 0 rgba(0, 28, 111);
   transition: all 0.2s;
@@ -528,6 +537,8 @@ summary::-webkit-details-marker {
   margin-right: 5px; 
   margin-bottom: 5px;
   margin-top: 5px;
+  left: auto;
+  right: auto;
 }
 
 .window {
