@@ -54,6 +54,10 @@ body {
   width: 100%;
 }
 
+.above-portion {
+  margin: 10px;
+}
+
 .header{
   width: 100% ; 
   height: 100px; 
@@ -155,9 +159,6 @@ body {
 
 .details {
   user-select: none;
-  margin-left: 18%; 
-  margin-right: 18%;
-  min-width: 200px;
   text-align: center;
 }
   
@@ -178,6 +179,7 @@ summary {
   font-size: 20px;
   align-items: center;
   justify-content: center;
+  width: auto;
 }
   
 summary::-webkit-details-marker {
@@ -502,6 +504,33 @@ summary::-webkit-details-marker {
   box-shadow: 6px 6px 0  rgb(0, 100, 17);
   transition: all 0.2s;
   }
+
+.legenda {
+  color: rgb(0, 0, 0); 
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  margin-bottom: -20px;
+  margin: 9px;
+  border-top: 1px solid black;
+  align-items: center;
+}
+
+.legenda:hover {
+  background-color: #b4326d86;
+  border: 1px solid black;
+}
+
+.legenda-parent {
+  margin-top: 40px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row;
+}
+
 }
 
 
@@ -573,7 +602,7 @@ summary::-webkit-details-marker {
   border: 2px solid black;
   box-shadow: 6px 6px 0  rgb(0, 100, 17);
   transition: all 0.2s;
-  }
+}
 
 
 }
