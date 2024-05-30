@@ -56,6 +56,18 @@ body {
 
 .above-portion {
   margin: 10px;
+  margin-bottom: 40px;
+}
+
+.social {
+  width: 100%;
+  height: 70px;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 20px;
+  word-spacing: 10px;
+  font-size: large;
+  color:#014e0e79;
 }
 
 .header{
@@ -150,7 +162,7 @@ body {
   width: fit-content; 
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   padding: 0.3rem 3.4rem;
   border: 3px solid black;
   box-shadow: 8px 8px 0 rgb(0, 100, 17);
@@ -180,6 +192,8 @@ summary {
   align-items: center;
   justify-content: center;
   width: auto;
+  text-align: center;
+  position: relative;
 }
   
 summary::-webkit-details-marker {
@@ -473,7 +487,6 @@ summary::-webkit-details-marker {
   justify-content: center; 
   display: flex;
   width: 100%;
-  margin-top: 15px;
   margin-left: none; 
   margin-right: none;
   flex-flow: column wrap;
@@ -506,29 +519,30 @@ summary::-webkit-details-marker {
   }
 
 .legenda {
-  color: rgb(0, 0, 0); 
-  width: 150px;
+  color: rgb(58, 56, 56); 
+  width: 200px;
   padding-top: 5px;
   padding-bottom: 5px;
   display: flex;
   margin-bottom: -20px;
   margin: 9px;
-  border-top: 1px solid black;
-  align-items: center;
+  align-items: center;  
+  justify-content: center;
+  text-align: center;
 }
 
 .legenda:hover {
-  background-color: #b4326d86;
-  border: 1px solid black;
+  color: white;
 }
 
 .legenda-parent {
   margin-top: 40px;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   display: flex;
   flex-flow: row;
+  align-items: top;
 }
 
 }
