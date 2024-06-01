@@ -67,7 +67,7 @@ body {
   border-bottom: 20px;
   word-spacing: 10px;
   font-size: large;
-  color:#014e0e79;
+  color:rgba(1, 78, 14, 0.475);
 }
 
 .header{
@@ -222,7 +222,7 @@ summary::-webkit-details-marker {
 }
 
 .title-bar:hover {
-  background: #b4326c; 
+  background: rgb(180, 50, 108); 
   box-shadow: 8px 8px 0 rgba(0, 28, 111);
 }
 
@@ -266,7 +266,7 @@ summary::-webkit-details-marker {
   position: relative; 
   padding: 10px;
   font-size: 14px;
-  border: 2px solid #b4326c;
+  border: 2px solid rgb(180, 50, 108);
   color: white; 
   background-color: transparent; 
   margin: 10px;
@@ -274,7 +274,7 @@ summary::-webkit-details-marker {
 }
 
 .info:hover {
-  background-color:#b4326c;
+  background-color:rgb(180, 50, 108);
   color: black;
 }
 
@@ -283,14 +283,14 @@ summary::-webkit-details-marker {
   position: relative; 
   padding: 10px;
   font-size: 14px;
-  border: 2px solid #b4326c;
+  border: 2px solid rgb(180, 50, 108);
   color: white; 
   background-color: transparent; 
   width: inherit;
 }
 
 .dropbtn:hover {
-  background-color:#b4326c;
+  background-color:rgb(180, 50, 108);
   color: black;
 }
 
@@ -362,15 +362,15 @@ summary::-webkit-details-marker {
   padding: 12px;
   font-size: 14px;
   width: 150px;
-  border: 2px solid #0800ffb6;
+  border: 2px solid rgba(8, 0, 255, 0.714);
   color: rgba(189, 189, 189, 0.834); 
   background-color: transparent;
   margin: 20px; 
 }
 
 .container:hover {
-  background-color: #0800ffb6; 
-  color: #b4326c; 
+  background-color: rgba(8, 0, 255, 0.714); 
+  color: rgb(180, 50, 108); 
 }  
 
 .container2 {
@@ -379,15 +379,15 @@ summary::-webkit-details-marker {
   padding: 12px;
   font-size: 14px;
   width: 150px;
-  border: 2px solid #0a8324b6;
+  border: 2px solid rgba(10, 131, 36, 0.714);
   color: rgba(189, 189, 189, 0.834); 
   background-color: transparent; 
   margin: 20px; 
 }
 
 .container2:hover {
-  background-color:#0a8324b6; 
-  color: #b4326c; 
+  background-color:rgba(10, 131, 36, 0.714); 
+  color: rgb(180, 50, 108); 
 }
 
 .mobile-header {
@@ -737,7 +737,7 @@ summary::-webkit-details-marker {
   
   .hamburger-line {
     width: 100%;
-    background: #950055; 
+    background: rgb(149, 0, 85); 
     height: 2px;
     display: block;
     border-radius: 6px;
@@ -768,7 +768,7 @@ summary::-webkit-details-marker {
     transform-origin: left;
     transition: all 0.4s cubic-bezier(0.54, -0.10, 0.57, 0.57);
     background-color: #000000;
-    color:#950055; 
+    color:rgb(149, 0, 85); 
     width: 250px;
     left: 180%;
     padding: 15px 0;
