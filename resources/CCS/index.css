@@ -13,10 +13,6 @@
   margin-right: auto;
 }
   
-a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-} 
 
 a:hover {
   color: rgb(116, 185, 255) !important;

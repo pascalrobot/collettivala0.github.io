@@ -2,7 +2,7 @@ const article = document.querySelector("#navigation-bar");
 const button = document.querySelector("button");
 
 function openWindow() {
-    window.location.replace("https://www.w3schools.com");
+    window.location.replace("aboutus.html");
 }
 
 function openWindow2() {
@@ -14,18 +14,6 @@ function articleList() {
     document.getElementById("myDropdown1").classList.toggle("show");
   }
 
-function schizzi() {
-    window.location.replace("./DevProject./schizzidalladistopia.html");
- }
- function python() {
-    window.location.replace("https://www.javatpoint.com/python-tutorial");
- }
- function cpp() {
-    window.location.replace("https://www.javatpoint.com/cpp-tutorial");
- }
- function c() {
-    window.location.replace("https://www.javatpoint.com/c-programming-language-tutorial");
- }
 
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
@@ -39,21 +27,11 @@ function schizzi() {
       }
     }
   }
- 
 
 function articleList2() {
     document.getElementById("myDropdown2").classList.toggle("show");
   }
 
- function python() {
-    window.location.replace("https://www.javatpoint.com/python-tutorial");
- }
- function cpp() {
-    window.location.replace("https://www.javatpoint.com/cpp-tutorial");
- }
- function c() {
-    window.location.replace("https://www.javatpoint.com/c-programming-language-tutorial");
- }
 
 
  window.onclick = function(event) {
