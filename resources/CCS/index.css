@@ -28,6 +28,19 @@ h1 {
   font-stretch: narrower;
   font-size: 30px;
 }
+
+footer {
+  background-color: black; 
+  color: rgb(186, 167, 167); 
+  justify-content: center;
+  padding: 15px;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:60px;
+  width:100%;
+  text-align: center;
+}
   
 h2 {
   color: black;
