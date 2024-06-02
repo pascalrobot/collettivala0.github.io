@@ -17,6 +17,11 @@
 a:hover {
   color: rgb(116, 185, 255) !important;
 }
+
+a {
+  text-decoration: none;
+  color: rgb(149, 0, 85);
+}
     
 h1 {
   color: black;
@@ -28,11 +33,40 @@ h2 {
   color: black;
   font-stretch: narrower;
   font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+  color: rgb(76, 20, 128);
+}
+
+h3 {
+  color: black; 
+  font-size: 20px;
+  font-stretch: narrower;
+  font-weight: lighter;
+}
+
+h5 {
+  color: black; 
+  font-size: 20px;
+  font-stretch: narrower; 
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: lighter;
+  font-stretch: narrower;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.45); 
+}
+
+h4:hover {
+  color: rgb(108, 27, 183); 
+  font-style: italic;
 }
 
 p, 
 li {
-  font-size: 18fx;
+  font-size: 20fx;
 }
 
 body {
@@ -64,6 +98,11 @@ body {
   word-spacing: 10px;
   font-size: large;
   color:rgba(1, 78, 14, 0.475);
+}
+
+.testo {
+  text-align: left;
+  padding: 20px;
 }
 
 .header{
@@ -163,8 +202,10 @@ body {
   }
 
 .details {
-  user-select: none;
+  user-select: none; 
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
   
 details>summary span.icon {
@@ -181,11 +222,11 @@ details[open] summary span.icon {
 summary {
   display: flex;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   align-items: center;
   justify-content: center;
   width: auto;
-  text-align: center;
+  text-align: left;
   position: relative;
 }
   
@@ -196,12 +237,19 @@ summary::-webkit-details-marker {
 .more-info {
   padding: 15px; 
   margin-top: 5px;
-  font-size: 16px;
+  text-align: justify;
+  font-size: larger;
+}
+
+.more-info3 {
+  padding: 15px; 
+  margin-top: 5px;
   text-align: justify;
 }
 
 .more-info2 {
   color: rgb(0, 0, 0);
+  font-size: larger;
   letter-spacing: 1;
   text-align: justify; 
   width: auto;
@@ -359,7 +407,7 @@ summary::-webkit-details-marker {
   font-size: 14px;
   width: 150px;
   border: 2px solid rgba(8, 0, 255, 0.714);
-  color: rgba(189, 189, 189, 0.834); 
+  color: rgb(189, 189, 189); 
   background-color: transparent;
   margin: 20px; 
 }
@@ -504,13 +552,12 @@ summary::-webkit-details-marker {
 
 .title {
   text-align: center; 
-  padding: 20px;
+  padding: 14px;
   color: rgb(155, 148, 148);
   width: fit-content; 
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
-  padding: 0.3rem 3.4rem;
+  margin-bottom: 30px;
   border: 2px solid black;
   box-shadow: 6px 6px 0  rgb(0, 100, 17);
   transition: all 0.2s;
@@ -764,7 +811,7 @@ summary::-webkit-details-marker {
     transform-origin: left;
     transition: all 0.4s cubic-bezier(0.54, -0.10, 0.57, 0.57);
     background-color: #000000;
-    color:rgb(149, 0, 85); 
+    color:rgb(149, 0, 85) !important; 
     width: 250px;
     left: 180%;
     padding: 15px 0;

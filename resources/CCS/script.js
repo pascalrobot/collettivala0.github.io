@@ -2,10 +2,14 @@ const article = document.querySelector("#navigation-bar");
 const button = document.querySelector("button");
 
 function openWindow() {
-    window.location.replace("aboutus.html");
+    window.location.replace("bibliotecadigitale.html");
 }
 
 function openWindow2() {
+  window.location.replace("aboutus.html");
+}
+
+function openWindow3() {
   window.location.replace("https://www.google.com/");
 }
 
@@ -46,11 +50,6 @@ function articleList2() {
      }
    }
  }
-
-
-function openWindow2() {
-    window.location.replace("https://www.w3schools.com");
-}
 
 
 function myFunction() {
