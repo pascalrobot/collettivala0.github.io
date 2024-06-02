@@ -1,8 +1,12 @@
 const article = document.querySelector("#navigation-bar"); 
 const button = document.querySelector("button");
 
-function openWindow() {
+function openWindow1() {
     window.location.replace("bibliotecadigitale.html");
+}
+
+function openWindow() {
+  window.location.replace("bibliotecadigitale.html");
 }
 
 function openWindow2() {
@@ -11,6 +15,10 @@ function openWindow2() {
 
 function openWindow3() {
   window.location.replace("https://www.google.com/");
+}
+
+function openWindow4() {
+  window.location.replace("contattaci.html");
 }
 
 
