@@ -28,7 +28,7 @@ a:hover {
 
 a {
   text-decoration: none;
-  color: rgb(149, 0, 85);
+  color: rgb(246, 9, 143);
 }
     
 h1 {
@@ -137,17 +137,6 @@ body {
   flex-flow: row wrap;
 }
 
-.riassunto {
-  color: white; 
-  height: 150px;
-  padding-left: 60px; 
-  border-left: solid 3px rgb(180, 50, 108);
-  text-align: left;
-  margin-left: 40px;
-  width: 280px;
-  padding-top: 20px;
-}
-
 .header{
   width: 100% ; 
   height: 100px; 
@@ -240,7 +229,7 @@ body {
   width: 400px;
   height: 250x;
   text-align: left;
-  box-shadow: 6px 6px 0  rgba(0, 100, 17, 0.504);
+  box-shadow: 6px 6px 0  rgb(0, 100, 17);
   border:#000000 2px solid;
   align-items: center;
   justify-content: center;
@@ -354,6 +343,21 @@ summary::-webkit-details-marker {
 }
 
 @media (min-width: 1200px) {
+
+
+.singolo-scaffale2 { 
+  grid-template-columns: 1fr 1fr;
+  align-items: center; 
+  justify-content: center; 
+  display: flex;
+  display: -webkit-box; 
+  display: -ms-flexbox;  
+  display: -webkit-flex;
+  margin-left: none; 
+  margin-right: none;
+  flex-flow: row wrap;
+  max-height: 250px;
+}  
 
 .singolo-scaffale {
   grid-template-columns: 1fr 1fr;
@@ -554,6 +558,19 @@ summary::-webkit-details-marker {
     height: 300px;
 }
 
+
+.riassunto {
+  color: white; 
+  height: 150px;
+  padding-left: 60px; 
+  border-left: solid 3px rgb(180, 50, 108);
+  text-align: left;
+  margin-left: 40px;
+  width: 280px;
+  padding-top: 20px;
+}
+
+
 .mobile-footer {
   display: none; 
 }
@@ -635,6 +652,7 @@ summary::-webkit-details-marker {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  max-height: 250px;
 }
 
 .grid-container {
@@ -650,19 +668,6 @@ summary::-webkit-details-marker {
   margin-left: none; 
   margin-right: none;
   flex-flow: column wrap;
-}
-
-.singolo-scaffale2 { 
-  grid-template-columns: 1fr 1fr;
-  align-items: center; 
-  justify-content: center; 
-  display: flex;
-  display: -webkit-box; 
-  display: -ms-flexbox;  
-  display: -webkit-flex;
-  margin-left: none; 
-  margin-right: none;
-  flex-flow: row wrap;
 }
 
 .title {
@@ -801,20 +806,18 @@ summary::-webkit-details-marker {
   display: -webkit-flex; 
 } 
 
-.singolo-scaffale2 { 
-  grid-template-columns: 1fr 1fr;
-  align-items: center; 
-  justify-content: center; 
-  display: flex;
-  display: -webkit-box; 
-  display: -ms-flexbox;  
-  display: -webkit-flex;
-  margin-left: none; 
-  margin-right: none;
-  flex-flow: row wrap;
-  margin-top: 25px;
-  margin-bottom: -50px;
+
+.riassunto {
+  color: white; 
+  height: 150px;
+  padding-left: 30px; 
+  border-left: solid 3px rgb(180, 50, 108);
+  text-align: left;
+  margin-left: 5px;
+  width: 200px;
+  padding-top: 20px;
 }
+
 
 .mobile-legenda {
     display: contents; 
@@ -956,6 +959,21 @@ summary::-webkit-details-marker {
 
 @media (max-width: 1200px) {
 
+.singolo-scaffale2 { 
+  grid-template-columns: 1fr 1fr;
+  align-items: center; 
+  justify-content: center; 
+  display: flex;
+  display: -webkit-box; 
+  display: -ms-flexbox;  
+  display: -webkit-flex;
+  margin-left: none; 
+  margin-right: none;
+  flex-flow: column-reverse wrap;
+  margin-top: 25px;
+  margin-bottom: -50px;
+}
+
 .singolo-scaffale {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1007,6 +1025,7 @@ summary::-webkit-details-marker {
   margin-top: 100px;
   position: relative;
   padding: 15px;
+  display: blocK;
 }  
 
 .header {
@@ -1104,7 +1123,7 @@ summary::-webkit-details-marker {
     transform-origin: left;
     transition: all 0.4s cubic-bezier(0.54, -0.10, 0.57, 0.57);
     background-color: #000000;
-    color:rgb(149, 0, 85) !important; 
+    color:rgb(255, 255, 255) !important; 
     width: 250px;
     left: 180%;
     padding: 15px 0;
@@ -1119,7 +1138,8 @@ summary::-webkit-details-marker {
       cursor: pointer;
     }
   }
-  
+
+
   .menu-button {
     position: absolute;
     width: 70px;
