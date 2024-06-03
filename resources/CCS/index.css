@@ -226,7 +226,7 @@ body {
   margin-right: auto;
   margin-bottom: 10px;
   font-size: 15px;
-  width: 400px;
+  width: 360px;
   height: 250x;
   text-align: left;
   box-shadow: 6px 6px 0  rgb(0, 100, 17);
@@ -969,9 +969,10 @@ summary::-webkit-details-marker {
   display: -webkit-flex;
   margin-left: none; 
   margin-right: none;
-  flex-flow: column-reverse wrap;
+  flex-flow: row wrap;
   margin-top: 25px;
   margin-bottom: -50px;
+  overflow: scroll;
 }
 
 .singolo-scaffale {
