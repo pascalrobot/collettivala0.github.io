@@ -108,7 +108,7 @@ body {
 
 .social {
   width: 100%;
-  height: 70px;
+  height: 100%;
   justify-content: center;
   text-align: center;
   border-bottom: 10px;
@@ -222,8 +222,6 @@ body {
 
 .libro2 {
   background-color:  rgb(180, 164, 178); 
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 10px;
   font-size: 15px;
   width: 360px;
@@ -234,6 +232,9 @@ body {
   align-items: center;
   justify-content: center;
   padding: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: none;
 }
 
 
@@ -357,6 +358,7 @@ summary::-webkit-details-marker {
   margin-right: none;
   flex-flow: row wrap;
   max-height: 250px;
+  overflow: scroll; 
 }  
 
 .singolo-scaffale {
@@ -528,7 +530,7 @@ summary::-webkit-details-marker {
   border: 2px solid black; 
   width: 900px;
   position: relative;
-  margin: 20px;   
+  margin: 5%;   
   display: inline-block;
   filter: drop-shadow(0 0 0.75rem rgb(54, 1, 75));
   padding: 30px;
@@ -969,10 +971,10 @@ summary::-webkit-details-marker {
   display: -webkit-flex;
   margin-left: none; 
   margin-right: none;
+  max-height: 250px; 
   flex-flow: row wrap;
-  margin-top: 25px;
-  margin-bottom: -50px;
   overflow: scroll;
+  max-height: 300px;
 }
 
 .singolo-scaffale {
@@ -1023,7 +1025,7 @@ summary::-webkit-details-marker {
   border: 2px solid black; 
   width: 100%;
   height: 100%;
-  margin-top: 100px;
+  margin-top: 10%;
   position: relative;
   padding: 15px;
   display: blocK;
