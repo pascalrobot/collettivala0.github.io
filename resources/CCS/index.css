@@ -261,6 +261,22 @@ body {
 }
 
 
+.libro3 {
+  background-color:  transparent; 
+  padding: none;
+  border: 3px solid rgb(0, 0, 0); 
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%; 
+  font-size: 15px;
+  line-height: 1.6;
+  width: 200px;
+  height: 300px;
+  text-align: left;
+}
+
+
 
 .title2 {
   text-align: center; 
