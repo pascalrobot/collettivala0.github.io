@@ -248,8 +248,8 @@ body {
   background-color:  rgb(180, 164, 178); 
   margin-bottom: 10px;
   font-size: 15px;
-  width: 360px;
-  height: 250x;
+  width: 480px;
+  height: 260x;
   text-align: left;
   box-shadow: 6px 6px 0  rgb(0, 100, 17);
   border:#000000 2px solid;
@@ -397,7 +397,7 @@ summary::-webkit-details-marker {
   margin-left: none; 
   margin-right: none;
   flex-flow: row wrap;
-  max-height: 250px;
+  max-height: 300px;
   overflow: scroll; 
 }  
 
