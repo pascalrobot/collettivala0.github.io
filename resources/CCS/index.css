@@ -1235,12 +1235,9 @@ summary::-webkit-details-marker {
 }
 
 #header-logo img {
-  max-height: 70px;
-  min-height: 70px; 
-  min-width: 183.75px; 
-  max-width: 183.75px; 
-  margin-top: 10px; 
-  max-width: 100%; 
+  height: auto;
+  width: 190px;
+  padding-top: 5px; 
 }
 
 .main-content {
