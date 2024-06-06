@@ -125,15 +125,16 @@ body {
   word-spacing: 10px;
   font-size: large;
   color:rgba(1, 78, 14, 0.475);
+  overflow-x: auto;
 }
 
 .testo {
-  text-align: left;
   padding-top: 6%;
   padding-bottom: 6%;
   font-size: 20px;
   line-height: 1.7;
   letter-spacing: 1.5;
+  text-align: justify;
 }
 
 .grid-container3 {
