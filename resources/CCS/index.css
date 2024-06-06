@@ -27,7 +27,16 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-  
+
+ul {
+  padding-left: 5%;
+}
+
+ul li{
+  text-indent: 0;
+  display:inline-block;
+}
+
 
 a:hover {
   color: rgb(116, 185, 255) !important;
