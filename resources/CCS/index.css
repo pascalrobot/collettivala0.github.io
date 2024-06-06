@@ -124,8 +124,8 @@ body {
   padding-bottom: 25px;
   word-spacing: 10px;
   font-size: large;
+  height: fit-content;
   color:rgba(1, 78, 14, 0.475);
-  overflow-x: auto;
 }
 
 .testo {
