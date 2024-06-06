@@ -466,8 +466,7 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-left: none; 
   margin-right: none;
   flex-flow: row wrap;
-  max-height: 300px;
-  overflow: scroll; 
+  max-height: 300px; 
 }  
 
 .window-body {
@@ -879,6 +878,7 @@ secondaryDetails[open] secondarySummary span.icon {
   display: -ms-flexbox;  
   display: -webkit-flex;
   margin-bottom: -20px;
+  padding: 2%;
   margin-top: -20px;
   align-items: center;  
   justify-content: center;
