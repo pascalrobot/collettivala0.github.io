@@ -125,17 +125,6 @@ body {
   align-items: center;
 }
 
-.social {
-  width: 100%;
-  justify-content: center; 
-  text-align: center;
-  border-bottom: 10px;
-  padding-bottom: 25px;
-  word-spacing: 10px;
-  font-size: large;
-  height: fit-content;
-  color:rgba(1, 78, 14, 0.475);
-}
 
 .testo {
   padding-top: 6%;
@@ -412,7 +401,6 @@ secondaryDetails[open] secondarySummary span.icon {
 }
 
 
-
 .trigger-phrase {
   padding: 2px;
   padding-left: 9px;
@@ -622,23 +610,23 @@ secondaryDetails[open] secondarySummary span.icon {
   padding: 30px;
 }
 
-.title-bar {
-  background: transparent;
-  align-items: center;
-  width: 450px;
-  text-align: center;
-  display: inline-block;
-  position: relative;
-  padding: 8px; 
-  border: black 1px solid;  
-  left: auto;
-  right: auto;
-  margin-bottom: 15px; 
-}
-
 } 
 
 @media (min-width: 890px) {
+
+  .title-bar {
+    background: transparent;
+    align-items: center;
+    width: 450px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding: 8px; 
+    border: black 1px solid;  
+    left: auto;
+    right: auto;
+    margin-bottom: 15px; 
+  }
 
   .titolo-articolo {
     font-size: 50px;
@@ -651,6 +639,22 @@ secondaryDetails[open] secondarySummary span.icon {
     padding: 20px;
     border: 2px solid black;
   }  
+
+  .social {
+    width: 100%;
+    justify-content: center; 
+    text-align: center;
+    border-bottom: 10px;
+    padding-bottom: 25px;
+    word-spacing: 10px;
+    font-size: large;
+    height: fit-content;
+    color:rgba(1, 78, 14, 0.475);
+  }
+
+  .social-mobile {
+    display: none;
+  }
 
 .libro2 {
     background-color:  rgb(180, 164, 178); 
@@ -763,12 +767,14 @@ secondaryDetails[open] secondarySummary span.icon {
 .container6 {
   background-color:  rgb(180, 164, 178); 
   padding: 40px;
+  padding-top: -40px;
   width: 1000px;
   border: 2px solid black;
   margin-bottom: 60px;
   filter: drop-shadow(0 0 0.75rem rgb(54, 1, 75)); 
   display: inline-block; 
   position: relative; 
+  margin-top: 2%;
 }
 
 .container9 {
@@ -936,6 +942,39 @@ secondaryDetails[open] secondarySummary span.icon {
 
 @media (max-width: 890px) {
 
+  .title-bar {
+    background: transparent;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    position: relative; 
+    border: black 1px solid; ;
+    padding: 8px; 
+    margin-bottom: 5px;
+    margin-top: 5px;
+    left: auto;
+    right: auto;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
+  .social-mobile {
+    width: 100%;
+    justify-content: center; 
+    text-align: center;
+    border-bottom: 10px;
+    padding-bottom: 25px;
+    word-spacing: 10px;
+    font-size: large;
+    height: fit-content;
+    color:rgba(1, 78, 14, 0.475);
+  }
+  
+  .social {
+    display: none;
+  }
 
 
 .scaffale2 {
@@ -1074,16 +1113,15 @@ secondaryDetails[open] secondarySummary span.icon {
 
  .container6 {
   background-color:  rgb(180, 164, 178); 
-  padding-top: 25px;
   padding-bottom: 25px;
   padding-right: 5px;
   padding-left: 5px; 
+  padding-top: 20px;
   border: 2px solid black;
   width: 100%;
   height: 100%;
   position: relative;
   margin: none;
-  margin-top: 15px;
   margin-bottom: 60px;
   display: inline-block; 
 } 
@@ -1127,6 +1165,9 @@ secondaryDetails[open] secondarySummary span.icon {
   box-shadow: 6px 6px 0  rgb(0, 100, 17);
   transition: all 0.2s;
   font-size: smaller;
+  width: 320px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title3 {
@@ -1218,24 +1259,6 @@ secondaryDetails[open] secondarySummary span.icon {
   width: 100%;
   position: relative; 
   padding: 5px;
-}
-
-
-.title-bar {
-  background: transparent;
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  display: inline-block;
-  position: relative; 
-  border: black 1px solid; 
-  margin-left: 5px;
-  padding: 8px;
-  margin-right: 5px; 
-  margin-bottom: 5px;
-  margin-top: 5px;
-  left: auto;
-  right: auto;
 }
 
 .window {
@@ -1417,7 +1440,7 @@ secondaryDetails[open] secondarySummary span.icon {
 .main-content {
   align-items: center;
   text-align: center;
-  margin-top: 78px;
+  margin-top: 80px;
   width: 100%;
 }
 
