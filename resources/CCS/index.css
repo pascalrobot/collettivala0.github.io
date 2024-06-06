@@ -779,7 +779,10 @@ secondaryDetails[open] secondarySummary span.icon {
 
 .container9 {
   background-color:  rgb(190, 184, 184); 
-  padding: 6%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 6%;
+  padding-top: 4%;
   width: 1200px;
   border: 2px solid black;
   margin-bottom: 60px;
