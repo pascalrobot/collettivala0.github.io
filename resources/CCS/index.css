@@ -617,14 +617,14 @@ secondaryDetails[open] secondarySummary span.icon {
   .title-bar {
     background: transparent;
     align-items: center;
-    width: 450px;
+    width: fit-content;
     text-align: center;
     display: inline-block;
     position: relative;
     padding: 8px; 
     border: black 1px solid;  
-    left: auto;
-    right: auto;
+    margin-left: 200px;
+    margin-right: 200px; 
     margin-bottom: 15px; 
   }
 
@@ -900,7 +900,8 @@ secondaryDetails[open] secondarySummary span.icon {
   display: -ms-flexbox;  
   display: -webkit-flex;
   margin-bottom: -20px;
-  padding: 2%;
+  padding: 1%;
+  padding-top: 20px;
   margin-top: -20px;
   align-items: center;  
   justify-content: center;
@@ -921,6 +922,8 @@ secondaryDetails[open] secondarySummary span.icon {
   display: -webkit-flex;
   flex-flow: row;
   align-items: top;
+  padding-top: 20px;
+  padding-bottom: -10px;
   border: 2px  rgb(172, 0, 118) solid;
   
 
