@@ -125,16 +125,6 @@ body {
   align-items: center;
 }
 
-
-.testo {
-  padding-top: 6%;
-  padding-bottom: 6%;
-  font-size: 20px;
-  line-height: 1.7;
-  letter-spacing: 1.5;
-  text-align: justify;
-}
-
 .grid-container3 {
   grid-template-columns: 1fr 1fr;
   justify-content: center; 
@@ -628,6 +618,15 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-bottom: 15px; 
   }
 
+  .testo {
+    padding-top: 4%;
+    padding-bottom: 6%;
+    font-size: 20px;
+    line-height: 1.7;
+    letter-spacing: 1.5;
+    text-align: justify;
+  }
+
   .titolo-articolo {
     font-size: 50px;
     text-align: center;
@@ -965,6 +964,15 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-left: auto;
     margin-right: auto;
   }  
+
+  .testo {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    font-size: 20px;
+    line-height: 1.7;
+    letter-spacing: 1.5;
+    text-align: justify;
+  }
 
   .social-mobile {
     width: 100%;
