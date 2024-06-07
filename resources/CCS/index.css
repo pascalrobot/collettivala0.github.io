@@ -39,12 +39,12 @@ ul li{
 
 
 a:hover {
-  color: rgb(116, 185, 255) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 a {
   text-decoration: none;
-  color: rgb(246, 9, 143);
+  color:  rgb(29, 103, 60);
 }
     
 h1 {
