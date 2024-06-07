@@ -444,6 +444,7 @@ secondaryDetails[open] secondarySummary span.icon {
   display: -ms-flexbox;  
   display: -webkit-flex;
   margin-left: none; 
+  margin-bottom: -1%;
   margin-right: none;
   flex-flow: row wrap;
 }  
