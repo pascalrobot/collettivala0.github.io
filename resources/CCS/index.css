@@ -447,6 +447,16 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-top: 1%;
 }  
 
+.window-body2 {
+  margin: 2%;
+  width: 100%;
+  display: inline-block; 
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+}  
+
 .main-content {
   align-items: center;
   text-align: center;
@@ -616,6 +626,20 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-left: 200px;
     margin-right: 200px; 
     margin-bottom: 15px; 
+  }
+
+  .title-bar3 {
+    background: transparent;
+    align-items: center;
+    width: 40%;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    padding: 8px; 
+    background-color: rgba(222, 227, 231, 0.379);
+    margin-right: 60%; 
+    margin-bottom: 15px; 
+    box-shadow: 4px 4px 0  rgba(245, 0, 135, 0.376);
   }
 
   .testo {
@@ -965,6 +989,19 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-right: auto;
   }  
 
+  .title-bar3 {
+    background: transparent;
+    align-items: center;
+    width: 280px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    padding: 8px; 
+    background-color: rgba(222, 227, 231, 0.379);
+    margin-bottom: 15px; 
+    box-shadow: 4px 4px 0  rgba(245, 0, 135, 0.376);
+  }
+
   .testo {
     padding-top: 6%;
     padding-bottom: 6%;
@@ -1038,6 +1075,11 @@ secondaryDetails[open] secondarySummary span.icon {
   padding: 20px;
   border: 2px solid black;
 } 
+
+.foto-mobile {
+  height: auto; 
+  max-width: 260px;
+}
 
 .cornerLink {
   display: none;
@@ -1267,6 +1309,15 @@ secondaryDetails[open] secondarySummary span.icon {
 
 
 .window-body {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  width: 100%;
+  position: relative; 
+  padding: 5px;
+}
+
+.window-body2 {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 5px;
