@@ -389,6 +389,16 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-bottom: 3%;
 }
 
+.more-info4 {
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  letter-spacing: 1;
+  text-align: justify; 
+  width: auto;
+  margin-top: 15px;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
 
 .trigger-phrase {
   padding: 2px;
@@ -452,7 +462,6 @@ secondaryDetails[open] secondarySummary span.icon {
   width: 100%;
   display: inline-block; 
   position: relative;
-  margin-left: 10%;
   margin-right: 10%;
   margin-top: 1%;
 }  
@@ -626,6 +635,16 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-left: 200px;
     margin-right: 200px; 
     margin-bottom: 15px; 
+  }
+
+  .foto-mobile {
+    height: auto; 
+    width: auto;
+    max-width: 540px;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2%;
   }
 
   .title-bar3 {
@@ -812,6 +831,9 @@ secondaryDetails[open] secondarySummary span.icon {
   filter: drop-shadow(0 0 0.75rem rgb(54, 1, 75)); 
   display: inline-block; 
   position: relative; 
+  line-height: 1.7;
+  letter-spacing: 1.5;
+  text-align: justify;
 }
 
 .scaffale {
@@ -1078,8 +1100,13 @@ secondaryDetails[open] secondarySummary span.icon {
 
 .foto-mobile {
   height: auto; 
-  max-width: 260px;
+  max-width: 280px;
+  margin-left: auto; 
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2%;
 }
+
 
 .cornerLink {
   display: none;
@@ -1196,6 +1223,9 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-top: 15px;
   margin-bottom: 60px;
   display: inline-block; 
+  line-height: 1.7;
+  letter-spacing: 1.5;
+  text-align: justify;
 } 
 
 .grid-container {
