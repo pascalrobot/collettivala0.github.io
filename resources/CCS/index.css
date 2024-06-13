@@ -28,6 +28,7 @@ main {
   margin-right: auto;
 }
 
+
 ul {
   padding-left: 5%;
 }
@@ -656,6 +657,18 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-bottom: 15px; 
   }
 
+  .center-header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: -40px;
+  }
+
+  .center-header-mobile {
+    display: none;
+  }
+
   .foto-mobile {
     height: auto; 
     width: auto;
@@ -1041,10 +1054,19 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-top: 5px;
     left: auto;
     right: auto;
-    width: 320px;
     margin-left: auto;
     margin-right: auto;
   }  
+
+  .center-header{
+      display: none;
+  }
+
+  .center-header-mobile {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 
   .title-bar3 {
     background: transparent;
