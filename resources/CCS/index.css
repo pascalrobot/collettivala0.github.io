@@ -342,16 +342,6 @@ secondaryDetails[open] secondarySummary span.icon {
   justify-content: center;
 }
 
-.secondarySummary {
-  display: flex;
-  cursor: pointer;
-  font-size: 20px;
-  position: relative;
-  text-align: left;
-  align-items: left;
-  justify-content: left;
-}
-
 .secondarySummary::-webkit-details-marker {
   display: none;
 }
@@ -370,6 +360,11 @@ secondaryDetails[open] secondarySummary span.icon {
 
 .sotto-testo {
   margin-left: 2.5%;
+}
+
+.thingy {
+  margin-top: auto;
+  margin-bottom: auto;
 }
   
 .more-info {
@@ -655,6 +650,17 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-left: 200px;
     margin-right: 200px; 
     margin-bottom: 15px; 
+  }
+
+  .secondarySummary {
+    display: flex;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    gap: 2%;
   }
 
   .center-header{
@@ -1057,6 +1063,18 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-left: auto;
     margin-right: auto;
   }  
+
+  .secondarySummary {
+    display: flex;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    gap: 2%;
+    flex-direction: column; 
+  }
 
   .center-header{
       display: none;
