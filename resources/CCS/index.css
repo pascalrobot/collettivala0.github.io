@@ -118,6 +118,9 @@ body {
   width: 100%;
 }
 
+.lots-of-space {
+  height: 30px;
+}
 
 .above-portion {
   margin: 10px;
