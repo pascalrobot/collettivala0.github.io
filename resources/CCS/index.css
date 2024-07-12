@@ -854,6 +854,15 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-bottom: 2%;
   }
 
+  .foto-mobile3 {
+    height: auto; 
+    width: 500px;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+    margin-top: -5%;
+  }
+
   .foto-mobile2 {
     width: 400px;
   }
@@ -1366,6 +1375,15 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-right: auto;
   display: block;
   margin-bottom: 2%;
+}
+
+.foto-mobile3 {
+  height: auto; 
+  width: 300px;
+  margin-left: auto; 
+  margin-right: auto;
+  display: block;
+  margin-top: -5%;
 }
 
 .foto-mobile2 {
