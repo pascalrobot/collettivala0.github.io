@@ -1,6 +1,6 @@
 
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: inherit;
   margin: 0;
   padding: 0; 
   box-sizing: border-box;
@@ -25,6 +25,7 @@ em {
 p.b {
   font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
 }
+
 
 body {
   background-image: url("https://raw.githubusercontent.com/pascalrobot/collettivala0.github.io/ed23ebfaeac0bec4f3c6da34fd3a91264a2ca7f8/imgs/SFONDO.png");
@@ -112,10 +113,12 @@ h5 {
 }
 
 h6 {
-  font-weight: lighter;
-  font-stretch: narrower;
-  font-size: 17px;
-  color: #4505679c; 
+  font-family: inherit;
+  display: inline-block;
+  backdrop-filter: blur(4px);
+  font-size: inherit;
+  font-weight: inherit;
+  background-clip: text;
 }
 
 p, 
@@ -150,6 +153,7 @@ li {
   display: -webkit-flex;
   display: flex;   
   text-align: center; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 10%; 
   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
   z-index: 2;
@@ -213,6 +217,7 @@ li {
   padding-bottom: 25px;
   border: 1px solid black; 
   margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
   font-size: 15px;
   line-height: 1.6;
   width: auto;
@@ -818,22 +823,92 @@ secondaryDetails[open] secondarySummary span.icon {
   width: 100%;
   height: auto;
   background-size: cover;
-  position: relative;
+  position: relative; 
+  display: flex;
+  flex-direction: row;
 }
 
 
-.titolo-articolo-final {
+.myDIV {
   text-align: center;
   height: fit-content;
   width: fit-content;
   max-height: 400px;
-  font-weight: 800;
+  max-width: 900px;
   bottom: 8%;
-  margin-left: 5%;
-  position: absolute; 
+  font-variant: small-caps slashed-zero;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 380px;
+  position: relative; 
   font-size: 50px;
-  background-color:  rgb(180, 50, 109);
-  backdrop-filter: invert(80%);
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: rgb(0, 0, 0) 4px 0 20px;
+}
+
+.myDIV:hover {
+  margin-top: 320px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.myDIV:hover + .sottotitolo {
+  display: block; 
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+}
+
+.sottotitolo {
+    display: none;
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    width: fit-content;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    height: 40px;
+    background-color: aliceblue;
+    margin-top: -15px;
+}
+
+.data-articolo {
+  text-align: center;
+  height: fit-content; 
+  width: 14%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+  margin-top: 370px;
+  color: rgb(198, 198, 198); 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-style: bold;
+  text-shadow: rgb(0, 0, 0) 4px 0 20px;
+}
+
+
+.tag-articolo {
+  text-align: center;
+  height: fit-content; 
+  width: 14%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+  margin-top: 370px;
+  color: rgb(198, 198, 198); 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: bold;
+  text-shadow: rgb(0, 0, 0) 4px 0 20px;
 }
 
 
@@ -1168,6 +1243,7 @@ secondaryDetails[open] secondarySummary span.icon {
   height:200px;
   width:100%;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
   position:relative;
   margin-top: 50px;
   display: flex;
@@ -1533,6 +1609,7 @@ secondaryDetails[open] secondarySummary span.icon {
   color: rgb(186, 167, 167); 
   justify-content: center;
   padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
   left:0px;
   bottom:0px;
   height: 180px;
@@ -1782,6 +1859,7 @@ secondaryDetails[open] secondarySummary span.icon {
   align-items: center;
   justify-content: center;
   display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
   display: -webkit-box; 
   display: -ms-flexbox;  
   display: -webkit-flex;
