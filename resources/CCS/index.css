@@ -185,6 +185,7 @@ li {
   border: 2px solid black; 
 }
 
+
 .container7 {
   background-color: rgb(148, 133, 133);
   padding: 40px;
@@ -194,6 +195,26 @@ li {
   border: 4px solid rgb(0, 100, 17);
   margin-bottom: 60px;
   align-items: center;
+}
+
+.contenitore-foto {
+   display: flex;
+   flex-direction: column;
+}
+
+.citazione-grossa {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+  position: relative; 
+  text-align: left;
+  font-size: xx-large;
+  font-style: italic;
+  margin-top: 5%;
+  margin-bottom: 5%; 
+  padding: 20px;
+  border-top: dotted 3px black; 
+  border-bottom: dotted 3px black;
 }
 
 .grid-container3 {
@@ -754,7 +775,7 @@ secondaryDetails[open] secondarySummary span.icon {
   display: inline-block; 
   position: relative; 
   margin-top: 1%;
-}  
+} 
 
 
 .window-body2 {
@@ -792,6 +813,7 @@ secondaryDetails[open] secondarySummary span.icon {
   font-size: larger;
   margin-top: 4%;
   display: block;
+  margin-bottom: 4%;
 }
 
 .nota-articolo {
@@ -800,6 +822,16 @@ secondaryDetails[open] secondarySummary span.icon {
   text-align: right;
   margin-left: -255px;
   padding-right: 30px;
+  font-size: medium;
+  font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+.nota-articolo-destra {
+  float: right;
+  width: 200px;
+  text-align: right;
+  margin-right: -255px;
+  padding-left: 30px;
   font-size: medium;
   font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
 }
@@ -967,6 +999,13 @@ secondaryDetails[open] secondarySummary span.icon {
   text-shadow: rgb(0, 0, 0) 4px 0 20px;
 }
 
+.descrizione-foto {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: auto;
+  margin-top: 10px;
+}
 
 .info {
   text-align: center;
@@ -1085,7 +1124,18 @@ secondaryDetails[open] secondarySummary span.icon {
 @media (min-width: 890px) {
 
 
+.sottotitolo-cellulare {
+  display: none;
+}
 
+  .foto-break {
+    width: auto;
+    max-height: 400px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .title-bar {
     background: transparent;
@@ -1478,6 +1528,18 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-right: auto;
   }  
 
+  .sottotitolo-cellulare {
+    margin: none;
+    margin-top: -9px;
+    width: 100%;
+    font-style: oblique;
+    font-weight: 800;
+    height: auto;
+    text-align: center;
+    background: grey;
+    padding: 10px;
+  }
+
   .carousel {
     width: 100%;
     height: 440px;
@@ -1533,6 +1595,17 @@ secondaryDetails[open] secondarySummary span.icon {
     text-align: justify;
     margin-left: 2%;
     margin-right: 2%;
+  }
+
+  .foto-break {
+    height: auto; 
+    max-width: 280px;
+    margin-left: auto; 
+    max-height: 340px;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2%;
+    
   }
 
   .social-mobile {
@@ -1868,6 +1941,144 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-top: 2%;
 }
 
+.myDIV {
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  max-height: 400px;
+  max-width: 900px;
+  bottom: 8%;
+  font-variant: small-caps slashed-zero;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  position: relative; 
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-articolo {
+  text-align: center;
+  height: fit-content; 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+  margin-top: 10%;
+  color: rgb(198, 198, 198); 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-style: bold;
+  text-shadow: rgb(0, 0, 0) 4px 0 20px;
+}
+
+.testo-articolo {
+  margin-left: 5%;
+  margin-right: 5%; 
+  text-align: justify;
+  font-size: larger;
+  padding-top: 30px;
+  padding-bottom: 8%;
+  display: block;
+}
+
+.tag-articolo {
+  text-align: center;
+  height: fit-content; 
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 190px;
+  position: relative; 
+  color: rgb(198, 198, 198); 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-top: 10px;
+  font-style: bold;
+  text-shadow: rgb(0, 0, 0) 4px 0 20px;
+}
+
+.sottotitolo {
+    display: none;
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -15px;
+}
+
+.foto-nota {
+  max-width: 150px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.nota-articolo {
+  float: left;
+  width: 150px;
+  text-align: right;
+  padding-right: 30px;
+  font-size: medium;
+  font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+.nota-articolo-destra{
+  float: right;
+  width: 150px;
+  text-align: right;
+  padding-left: 30px;
+  font-size: medium;
+  font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+.foto-articolo {
+  max-height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+}
+
+.titolo-flex {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: column;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 2%;
+}
+
+.main-content-articoli {
+  background: rgb(212, 212, 212);
+  align-items: center;
+  text-align: left;
+  margin: none;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 5%;
+}
+
+.descrizione-foto {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: auto;
+  margin-top: 10px;
+}
 
 .window-body {
   margin-right: auto;
