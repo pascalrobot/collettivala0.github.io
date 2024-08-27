@@ -1018,7 +1018,7 @@ secondaryDetails[open] secondarySummary span.icon {
   background-color: rgb(176, 176, 176);
   margin-left: 20px;
   padding: 4px;
-  box-shadow: -8px -8px rgb(17, 133, 26);
+  box-shadow: -8px -8px rgb(0, 106, 9);
   margin-top: 110px;
   position: relative; 
 }
@@ -2051,7 +2051,7 @@ secondaryDetails[open] secondarySummary span.icon {
   background-color: rgb(176, 176, 176);
   margin-left: 20px;
   padding: 4px;
-  box-shadow: -8px -8px rgb(17, 133, 26);
+  box-shadow: -8px -8px rgb(0, 106, 9);
   margin-top: 60px;
   position: relative; 
 }
