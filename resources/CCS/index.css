@@ -1207,11 +1207,10 @@ secondaryDetails[open] secondarySummary span.icon {
 
   .foto-break {
     width: auto;
-    max-height: 400px;
+    object-fit: contain;
+    max-height: 500px;
     height: auto;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .title-bar {
