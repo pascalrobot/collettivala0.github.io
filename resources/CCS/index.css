@@ -11,6 +11,11 @@
   width: 10px;
 }
 
+.scroll {
+  height: 620px;
+}
+
+
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f100;
@@ -116,12 +121,7 @@ h4 {
   font-weight: lighter;
   font-stretch: narrower;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.45); 
-}
-
-h4:hover {
-  color: rgb(101, 0, 196); 
-  font-style: italic;
+  color: rgb(62, 60, 100); 
 }
 
 
@@ -144,6 +144,7 @@ h6 {
 p, 
 li {
   font-size: auto;
+  font-family: inherit;
   color: inherit; 
 }
 
@@ -163,6 +164,7 @@ li {
   height: 100px; 
   background: #000000;
   margin-right: none;
+  font-family: "Source Sans 3", sans-serif;
   padding-bottom: 10px;
   border: none;
   position: fixed;
@@ -401,6 +403,7 @@ li {
 .mainSummary {
   display: flex;
   cursor: pointer;
+  color: black;
   font-size: 20px;
   position: relative;
   text-align: center;
@@ -1680,6 +1683,7 @@ secondaryDetails[open] secondarySummary span.icon {
   box-shadow: 6px 6px 0  rgb(0, 100, 17);
   transition: all 0.2s;
   display: flex;
+  height: 650px;
   align-items: center; 
   justify-content: center; 
   grid-template-columns: 1fr 1fr;
@@ -1693,9 +1697,11 @@ secondaryDetails[open] secondarySummary span.icon {
  .title4 {
   text-align: center; 
   padding: 10px;
-  color: rgb(155, 148, 148); 
+  color: rgb(0, 0, 0); 
+  font-family: 'Times New Roman', Times, serif;
   margin-left: 9px;
   margin-right: 9px;
+  font-size: large;
   margin-bottom: 40px;
   padding: 0.3rem 3.4rem; 
   border: 2px solid rgb(0, 100, 17);
@@ -1743,7 +1749,10 @@ secondaryDetails[open] secondarySummary span.icon {
   height: 600px;
   background-color: rgba(0, 0, 0, 0.48);
   border: 2px solid rgb(109, 109, 109);
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
 }
 
@@ -2113,7 +2122,7 @@ secondaryDetails[open] secondarySummary span.icon {
 .title4 {
   text-align: center; 
   padding: 10px;
-  color: rgb(155, 148, 148); 
+  color: rgb(0, 0, 0); 
   margin-left: 9px;
   margin-right: 9px;
   margin-bottom: 40px;
@@ -2558,6 +2567,7 @@ secondaryDetails[open] secondarySummary span.icon {
 
 .mobile-header { 
   width: 100% ; 
+  font-family: "Source Sans 3", sans-serif;
   height: 80px; 
   background: #000000;
   margin-right: none;
