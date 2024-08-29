@@ -1521,7 +1521,7 @@ secondaryDetails[open] secondarySummary span.icon {
     justify-content: center; 
     text-align: center;
     border-bottom: 10px;
-    padding-bottom: 25px;
+    margin-bottom: 35px;
     word-spacing: 10px;
     font-size: large;
     height: fit-content;
