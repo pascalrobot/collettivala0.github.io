@@ -31,7 +31,7 @@ class Header extends HTMLElement {
       	<a href="index.html"> <img src= "https://i.ibb.co/LgYj2hy/SITO.png" alt="la 0" class="center"> </a>   
     	</div>
     	<div class="container">
-      	<a href="dimercoledìmattina.html" style="color:rgb(246, 9, 143)"><i>P O D C A S T<br>C A L L</i></a>
+<i>C O M I N G<br>S O O N</i>
     	</div>
     	<div class="container2">
       	<i>C O M I N G<br>S O O N</i>
@@ -61,7 +61,6 @@ class Header extends HTMLElement {
       	<div class="item"><a href="schizzidalladistopia.html" style="color:rgb(246, 9, 143);">SCHIZZI DALLA DISTOPIA</a></div>
       	<div class="item"><a href="teoriaperil99percento.html" style="color:rgb(246, 9, 143);">TEORIA PER IL 99%</a></div>  
       	<div class="item"><a href="bibliotecadigitale.html" style="color:rgb(246, 9, 143);">BIBLIOTECA DIGITALE</a></div>
-      	<div class="item"><a href="dimercoledìmattina.html" style="color:rgb(246, 9, 143);">PODCAST CALL</a></div>
       	<div class="item"><a href="contattaci.html" style="color:rgb(246, 9, 143);">CONTATTACI</a></div>
     	</div>
     	</label>   	 
