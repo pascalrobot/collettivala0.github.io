@@ -6,6 +6,26 @@
   box-sizing: border-box;
 }
 
+ /* width */
+ ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8888885f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #15a83722;
+} 
+
 source-sans-3-sansserif {
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
@@ -124,7 +144,7 @@ h6 {
 p, 
 li {
   font-size: auto;
-  color: black; 
+  color: inherit; 
 }
 
 .lots-of-space {
@@ -1005,6 +1025,25 @@ secondaryDetails[open] secondarySummary span.icon {
   position: relative; 
 }
 
+.categoria-articolo-schizzi-rettangolo {
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  max-height: 400px;
+  max-width: 900px;
+  border: solid black 2px;
+  font-size: x-large;
+  font-weight: 600;
+  font-style: italic;
+  background-color: rgb(176, 176, 176);
+  padding: 6px;
+  box-shadow: -8px -8px rgb(180, 50, 108);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+}
+
 .categoria-articolo-ditr {
   text-align: left;
   height: fit-content;
@@ -1021,6 +1060,25 @@ secondaryDetails[open] secondarySummary span.icon {
   padding: 4px;
   box-shadow: -8px -8px rgb(0, 106, 9);
   margin-top: 110px;
+  position: relative; 
+}
+
+.categoria-articolo-ditr-rettangolo {
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  max-height: 400px;
+  max-width: 900px;
+  border: solid black 2px;
+  font-size: x-large;
+  font-weight: 600;
+  font-style: italic;
+  background-color: rgb(176, 176, 176);
+  padding: 6px;
+  box-shadow: -8px -8px rgb(0, 106, 9);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative; 
 }
 
@@ -1043,6 +1101,25 @@ secondaryDetails[open] secondarySummary span.icon {
   position: relative; 
 }
 
+.categoria-articolo-biblio-rettangolo {
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  max-height: 400px;
+  max-width: 900px;
+  border: solid black 2px;
+  font-size: x-large;
+  font-weight: 600;
+  font-style: italic;
+  background-color: rgb(176, 176, 176);
+  padding: 6px;
+  box-shadow: -8px -8px rgb(0, 106, 255);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+}
+
 .categoria-articolo-teoria {
   text-align: left;
   height: fit-content;
@@ -1059,6 +1136,25 @@ secondaryDetails[open] secondarySummary span.icon {
   padding: 4px;
   box-shadow: -8px -8px rgb(255, 29, 29);
   margin-top: 110px;
+  position: relative; 
+}
+
+.categoria-articolo-teoria-rettangolo {
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  max-height: 400px;
+  max-width: 900px;
+  border: solid black 2px;
+  font-size: x-large;
+  font-weight: 600;
+  font-style: italic;
+  background-color: rgb(176, 176, 176);
+  padding: 6px;
+  box-shadow: -8px -8px rgb(255, 29, 29);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative; 
 }
 
@@ -1201,6 +1297,36 @@ secondaryDetails[open] secondarySummary span.icon {
 
 @media (min-width: 890px) {
 
+
+.contenitore-contenuti {
+  display: flex;
+  margin: 5%; 
+  flex-direction: row;
+}
+
+.rettangolo {
+  width: 450px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.48);
+  border: 2px solid rgb(109, 109, 109);
+  margin: 20px;
+  padding: 10px;
+}
+
+.descrizione-categoria {
+  margin: 10px;
+  color: rgb(160, 160, 160);
+  text-align: justify;
+  padding: 10px;
+  overflow: scroll;
+  height: 460px;
+  font-weight: 300;
+  backdrop-filter: blur(4px);
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  scrollbar-width: 5px;
+  scrollbar-color: rgba(171, 66, 212, 0.194);
+}
 
 .sottotitolo-cellulare {
   display: none;
@@ -1604,6 +1730,38 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-left: auto;
     margin-right: auto;
   }  
+
+
+.contenitore-contenuti {
+  display: flex;
+  margin: 5%; 
+  flex-direction: column;
+}
+
+.rettangolo {
+  width: 300px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.48);
+  border: 2px solid rgb(109, 109, 109);
+  margin: 20px;
+  padding: 10px;
+}
+
+.descrizione-categoria {
+  margin: 10px;
+  color: rgb(160, 160, 160);
+  text-align: justify;
+  padding: 10px;
+  overflow: scroll;
+  height: 460px;
+  font-weight: 300;
+  backdrop-filter: blur(4px);
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  scrollbar-width: 5px;
+  scrollbar-color: rgba(171, 66, 212, 0.194);
+}
+
 
   .sottotitolo-cellulare {
     margin: none;
@@ -2074,7 +2232,6 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-top: 60px;
   position: relative; 
 }
-
 .categoria-articolo-teoria {
   text-align: left;
   height: fit-content;
@@ -2091,6 +2248,83 @@ secondaryDetails[open] secondarySummary span.icon {
   padding: 4px;
   box-shadow: -8px -8px rgb(255, 29, 29);
   margin-top: 60px;
+  position: relative; 
+}
+
+
+.categoria-articolo-schizzi-rettangolo {
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  max-height: 400px;
+  max-width: 900px;
+  border: solid black 2px;
+  font-size: x-large;
+  font-weight: 600;
+  font-style: italic;
+  background-color: rgb(176, 176, 176);
+  padding: 6px;
+  box-shadow: -8px -8px rgb(180, 50, 108);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+}
+
+.categoria-articolo-ditr-rettangolo {
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  max-height: 400px;
+  max-width: 900px;
+  border: solid black 2px;
+  font-size: x-large;
+  font-weight: 600;
+  font-style: italic;
+  background-color: rgb(176, 176, 176);
+  padding: 6px;
+  box-shadow: -8px -8px rgb(0, 106, 9);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+}
+
+.categoria-articolo-biblio-rettangolo {
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  max-height: 400px;
+  max-width: 900px;
+  border: solid black 2px;
+  font-size: x-large;
+  font-weight: 600;
+  font-style: italic;
+  background-color: rgb(176, 176, 176);
+  padding: 6px;
+  box-shadow: -8px -8px rgb(0, 106, 255);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+}
+
+.categoria-articolo-teoria-rettangolo {
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  max-height: 400px;
+  max-width: 900px;
+  border: solid black 2px;
+  font-size: x-large;
+  font-weight: 600;
+  font-style: italic;
+  background-color: rgb(176, 176, 176);
+  padding: 6px;
+  box-shadow: -8px -8px rgb(255, 29, 29);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative; 
 }
 
