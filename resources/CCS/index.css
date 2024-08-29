@@ -11,11 +11,6 @@
   width: 10px;
 }
 
-.scroll {
-  height: 620px;
-}
-
-
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f100;
@@ -255,7 +250,6 @@ li {
 
 
 .grid-child {
-  background-color:  rgb(180, 164, 178); 
   padding: 20px;
   padding-bottom: 25px;
   border: 1px solid black; 
@@ -336,14 +330,15 @@ li {
   background-color:  transparent; 
   padding: none;
   border: 3px solid rgb(0, 0, 0); 
-  margin: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%; 
+  margin-bottom: 5%; 
+  margin-top: 5%;
   font-size: 15px;
   line-height: 1.6;
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  object-fit: contain;
+  height: 375px;
   text-align: left;
 }
 
@@ -541,6 +536,8 @@ secondaryDetails[open] secondarySummary span.icon {
   display: -webkit-flex;
   width: 100%;
   flex-flow: row wrap; 
+  margin-top: 10px;
+  margin-bottom: -10px;
   justify-content: center;
 }
 
@@ -741,7 +738,19 @@ secondaryDetails[open] secondarySummary span.icon {
 
 @media (min-width: 1200px) {
 
-
+  .container-real {
+    background-color:  rgb(212, 212, 212); 
+    padding: 40px;
+    padding-top: -40px;
+    width: 1000px;
+    border: 2px solid black;
+    margin-bottom: 60px;
+    filter: drop-shadow(0 0 0.75rem rgb(54, 1, 75)); 
+    display: inline-block; 
+    position: relative; 
+    margin-top: 2%;
+  }
+  
   .container {
   text-align: center;
   position: relative; 
@@ -1307,6 +1316,12 @@ secondaryDetails[open] secondarySummary span.icon {
   flex-direction: row;
 }
 
+.scroll {
+  height: 665px;
+  width: 460px;
+  overflow-y: scroll;
+}
+
 .rettangolo {
   width: 450px;
   height: 600px;
@@ -1591,20 +1606,6 @@ secondaryDetails[open] secondarySummary span.icon {
     opacity: 1;
 }
 
-
-.container6 {
-  background-color:  rgb(180, 164, 178); 
-  padding: 40px;
-  padding-top: -40px;
-  width: 1000px;
-  border: 2px solid black;
-  margin-bottom: 60px;
-  filter: drop-shadow(0 0 0.75rem rgb(54, 1, 75)); 
-  display: inline-block; 
-  position: relative; 
-  margin-top: 2%;
-}
-
 .container9 {
   background-color:  rgb(190, 184, 184); 
   padding-left: 6%;
@@ -1623,7 +1624,7 @@ secondaryDetails[open] secondarySummary span.icon {
 }
 
 .scaffale {
-  background-color:  rgb(180, 164, 178); 
+  background-color:  rgb(212, 212, 212); 
   padding: 20px;
   padding-bottom: 25px;
   border-bottom: 4px solid black;
@@ -1631,6 +1632,8 @@ secondaryDetails[open] secondarySummary span.icon {
   height: 400px;
   margin-bottom: 20px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .scaffale2 {
@@ -1678,24 +1681,26 @@ secondaryDetails[open] secondarySummary span.icon {
   color: rgb(155, 148, 148); 
   margin-left: 9px;
   margin-right: 30px;
+  background-color:  rgb(212, 212, 212);
   margin-bottom: 40px; 
   border: 2px solid black;
   box-shadow: 6px 6px 0  rgb(0, 100, 17);
   transition: all 0.2s;
   display: flex;
-  height: 650px;
+  height: 690px;
   align-items: center; 
   justify-content: center; 
   grid-template-columns: 1fr 1fr;
   display: -webkit-box; 
   display: -ms-flexbox;  
   display: -webkit-flex;
-  width: 400px;  
-  overflow: scroll;
+  width: 480px;  
+  overflow-y: scroll;
   }
 
  .title4 {
   text-align: center; 
+  background-color:  rgb(212, 212, 212);
   padding: 10px;
   color: rgb(0, 0, 0); 
   font-family: 'Times New Roman', Times, serif;
@@ -1711,14 +1716,23 @@ secondaryDetails[open] secondarySummary span.icon {
   padding-bottom: 30px;
   text-align: left;
   overflow-y: scroll;
-  width: 450px;
-  height: 650px;
+  width: 500px;
+  height: 690px;
 }
 } 
   
 
 
 @media (max-width: 890px) {
+
+  .scroll {
+    height: 665px;
+    width: 300px;
+    overflow-y: scroll;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .title-bar {
     background: transparent;
@@ -2042,21 +2056,6 @@ secondaryDetails[open] secondarySummary span.icon {
     margin-left: 220px;
 } 
 
- .container6 {
-  background-color:  rgb(180, 164, 178); 
-  padding-bottom: 25px;
-  padding-right: 5px;
-  padding-left: 5px; 
-  padding-top: 20px;
-  border: 2px solid black;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin: none;
-  margin-bottom: 60px;
-  display: inline-block; 
-} 
-
 .container9 {
   background-color:   rgb(190, 184, 184); 
   padding-top: 25px;
@@ -2107,26 +2106,29 @@ secondaryDetails[open] secondarySummary span.icon {
 .title3 {
   text-align: center; 
   padding: 10px;
+  background-color:  rgb(212, 212, 212);
   color: rgb(155, 148, 148); 
   margin-left: 9px;
   margin-right: 9px;
   margin-bottom: 40px;
-  padding: 0.3rem 3.4rem; 
   border: 2px solid black;
   box-shadow: 6px 6px 0  rgb(0, 100, 17);
   transition: all 0.2s;
   padding-top: 30px;
   overflow: scroll;
+  width: 100%;
 }
 
 .title4 {
   text-align: center; 
+  background-color:  rgb(212, 212, 212);
   padding: 10px;
   color: rgb(0, 0, 0); 
   margin-left: 9px;
   margin-right: 9px;
   margin-bottom: 40px;
-  padding: 0.3rem 3.4rem; 
+  padding: 5%;
+  font-size: large;
   border: 2px solid rgb(0, 100, 17);
   transition: all 0.2s;
   padding-top: 30px;
@@ -2168,6 +2170,21 @@ secondaryDetails[open] secondarySummary span.icon {
 }
 
 @media (max-width: 1200px) {
+
+ .container-real {
+  background-color:  rgb(212, 212, 212);
+  padding-bottom: 25px;
+  padding-right: 5px;
+  padding-left: 5px; 
+  padding-top: 20px;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: none;
+  margin-bottom: 60px;
+  display: inline-block; 
+} 
 
 .singolo-scaffale2 { 
   grid-template-columns: 1fr 1fr;
