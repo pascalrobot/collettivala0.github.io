@@ -22,11 +22,14 @@ class Header extends HTMLElement {
         	<a href="teoriaperil99percento.html"> Teoria per il 99%</a>
       	</div>
     	</div>
-    	<div id="info-button">
-      	<button class="info" onclick="openWindow1()">
-        	<i class="fa-solid fa-play" style="color: #fff9fe;"></i> BIBLIOTECA <br> DIGITALE
-      	</button>
+			<div class="dropdown" id="articles">
+      	<button onclick="articleList3()" class="dropbtn"><i class="fa-solid fa-play fa-rotate-90" style="color: rgb(177, 236, 244);"></i> BIBLIOTECA<br>DIGITALE</button>
+      	<div id="myDropdown3" class="dropdown-content3">
+        	<a href="bibliotecadigitale.html"><i>Vai agli Scaffali ></i></a>
+        	<a href="dispenseinmovimento.html">Dispense in Movimento</a>
+      	</div>
     	</div>
+
     	<div id="header-logo">
       	<a href="index.html"> <img src= "https://i.ibb.co/LgYj2hy/SITO.png" alt="la 0" class="center"> </a>   
     	</div>
@@ -61,7 +64,8 @@ class Header extends HTMLElement {
       	<div class="item"><a href="schizzidalladistopia.html" style="color:rgb(246, 9, 143);">SCHIZZI DALLA DISTOPIA</a></div>
       	<div class="item"><a href="teoriaperil99percento.html" style="color:rgb(246, 9, 143);">TEORIA PER IL 99%</a></div>  
       	<div class="item"><a href="bibliotecadigitale.html" style="color:rgb(246, 9, 143);">BIBLIOTECA DIGITALE</a></div>
-      	<div class="item"><a href="contattaci.html" style="color:rgb(246, 9, 143);">CONTATTACI</a></div>
+				<div class="item"><a href="dispenseinmovimento.html" style="color:rgb(246, 9, 143);">DISPENSE IN MOVIMENTO</a></div>
+      	<div class="item"><a href="contattaci.html" style="color:rgb(246, 9, 143);">CONTATTACI</a></div>>
     	</div>
     	</label>   	 
     	<div id="header-logo">
