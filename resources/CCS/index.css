@@ -920,7 +920,7 @@ secondaryDetails[open] secondarySummary span.icon {
 .nota-articolo-destra {
   float: right;
   width: 200px;
-  text-align: right;
+  text-align: left;
   margin-right: -255px;
   padding-left: 30px;
   font-size: medium;
