@@ -858,6 +858,7 @@ secondaryDetails[open] secondarySummary span.icon {
   height: 12px;
   position: fixed;
   top: 100px;
+  z-index: 10;
 }
 
 .singolo-scaffale2 { 
