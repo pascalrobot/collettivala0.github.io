@@ -1522,6 +1522,13 @@ secondaryDetails[open] secondarySummary span.icon {
     position: relative;
   }
 
+  .foto-break2 {
+    width: auto;
+    object-fit: contain;
+    height: auto;
+    position: relative;
+  }
+
   .title-bar {
     background: transparent;
     align-items: center;
@@ -2033,6 +2040,16 @@ secondaryDetails[open] secondarySummary span.icon {
     max-width: 280px;
     margin-left: auto; 
     max-height: 340px;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2%;
+    
+  }
+
+  .foto-break2 {
+    height: auto; 
+    margin-left: auto; 
+    width: 100%;
     margin-right: auto;
     display: block;
     margin-bottom: 2%;
