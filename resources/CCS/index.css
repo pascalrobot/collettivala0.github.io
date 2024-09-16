@@ -2857,6 +2857,7 @@ secondaryDetails[open] secondarySummary span.icon {
   height: 12px;
   position: fixed;
   top: 80px;
+  z-index: 10;
 }
 
 .mobile-header { 
