@@ -2767,25 +2767,11 @@ secondaryDetails[open] secondarySummary span.icon {
 }
 
 .nota-articolo {
-  float: left;
-  width: 150px;
-  text-align: right;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: medium;
-  font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
+display: none;
 }
 
 .nota-articolo-destra{
-  float: right;
-  width: 150px;
-  text-align: right;
-  padding-left: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: medium;
-  font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
+display:none;
 }
 
 .foto-articolo {
