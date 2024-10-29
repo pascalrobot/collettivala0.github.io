@@ -920,7 +920,7 @@ secondaryDetails[open] secondarySummary span.icon {
 
 .frame {
   width: 100%;
-  height: 100%;
+  height: 400px;
 }
 
 
@@ -2492,7 +2492,7 @@ secondaryDetails[open] secondarySummary span.icon {
 }
 
 .notiziafoto {
-  width: 290px;
+  width: 300px;
   height: auto;
 }
 
