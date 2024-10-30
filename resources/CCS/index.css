@@ -91,6 +91,13 @@ body {
   width: 100%;
 }
 
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
 main {
   flex: 1;
 }
@@ -1902,14 +1909,8 @@ secondaryDetails[open] secondarySummary span.icon {
   height: 690px;
 }
 
-
-.popup {
-  display: block;
-}
-
-
 } 
-  
+
 
 
 @media (max-width: 890px) {
@@ -1919,7 +1920,6 @@ secondaryDetails[open] secondarySummary span.icon {
     position: relative;
     display: inline-block;
     cursor: pointer;
-    display: show;
   }
   
   /* The actual popup (appears on top) */
