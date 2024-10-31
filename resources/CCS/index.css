@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+.pernota {
+  font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
+
+}
 
 hr {
   height: 20px;
