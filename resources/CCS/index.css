@@ -90,12 +90,6 @@ body {
   width: 100%;
 }
 
-.center2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-}
 
 main {
   flex: 1;
@@ -1497,6 +1491,14 @@ secondaryDetails[open] secondarySummary span.icon {
 @media (min-width: 890px) {
 
 
+
+  .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
 .contenitore-contenuti {
   display: flex;
   margin: 5%; 
@@ -1939,6 +1941,13 @@ display: none;
 
 @media (max-width: 890px) {
 
+
+  .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
 
   .popup {
     position: relative;
