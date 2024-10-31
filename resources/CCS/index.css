@@ -2134,9 +2134,8 @@ display: none;
 
   .foto-break {
     height: auto; 
-    max-width: 280px;
+    max-width: 300px;
     margin-left: auto; 
-    max-height: 340px;
     margin-right: auto;
     display: block;
     margin-bottom: 2%;
