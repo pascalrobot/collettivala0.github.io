@@ -536,12 +536,12 @@ secondaryDetails[open] secondarySummary span.icon {
 
 ::-moz-selection {
   color: rgb(48, 1, 19);
-  background: rgb(242, 255, 0);
+  background: rgb(255, 77, 237);
 }
 
 ::selection {
   color: rgb(48, 1, 19);
-  background: rgb(242, 255, 0);
+  background: rgb(255, 77, 237);
 }
 
 .more-info4 {
