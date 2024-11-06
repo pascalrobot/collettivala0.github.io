@@ -121,7 +121,7 @@ let docElem = document.documentElement,
 document.addEventListener('scroll', processScroll);
 
 
-function myFunction() {
+function myFunction3 () {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
