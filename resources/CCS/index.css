@@ -14,6 +14,44 @@
 
 }
 
+.mySlides {
+  
+  display:none;
+
+}
+
+
+.prev {
+  position: relative;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  white-space: nowrap;
+}
+
+.next {
+  font-size: 25px;
+  position: relative;
+  margin-left: 10px;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  color: black;
+  background-color: transparent;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
 hr {
   height: 20px;
   border: solid 3px #ff0062;
@@ -1494,6 +1532,41 @@ secondaryDetails[open] secondarySummary span.icon {
 @media (min-width: 890px) {
 
 
+  .titolo-tv {
+    height: 40px;
+    width: fit-content;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 27px;
+    vertical-align: middle;
+    overflow: hidden;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    padding: 6px;
+  }
+  
+  .slideshow-container {
+      text-align: center;
+      box-shadow: 6px 6px 0 rgb(0, 100, 17);
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      height: 600px;
+      padding: 20px;
+      border: 2px solid black;
+      line-height: 1.4;
+  }  
+
+  .mySlides img {
+  
+    height: 400px;
+  
+  }
 
   .center2 {
     display: block;
@@ -1944,6 +2017,38 @@ display: none;
 
 @media (max-width: 890px) {
 
+  .titolo-tv {
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    vertical-align: middle;
+    overflow: hidden;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    padding: 6px;
+  }
+  
+  .slideshow-container {
+      text-align: center;
+      box-shadow: 6px 6px 0 rgb(0, 100, 17);
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      height: 450px;
+      padding: 20px;
+      border: 2px solid black;
+      line-height: 1.4;
+  }  
+
+  .mySlides img {
+  
+    height: 200px;
+  
+  }
 
   .center2 {
     display: block;
