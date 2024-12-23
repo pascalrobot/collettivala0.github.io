@@ -65,7 +65,7 @@ class Header extends HTMLElement {
       	<div class="item"><a href="teoriaperil99percento.html" style="color:rgb(246, 9, 143);">TEORIA PER IL 99%</a></div>  
       	<div class="item"><a href="bibliotecadigitale.html" style="color:rgb(246, 9, 143);">BIBLIOTECA DIGITALE</a></div>
 				<div class="item"><a href="dispenseinmovimento.html" style="color:rgb(246, 9, 143);">DISPENSE IN MOVIMENTO</a></div>
-      	<div class="item"><a href="contattaci.html" style="color:rgb(246, 9, 143);">CONTATTACI</a></div>>
+      	<div class="item"><a href="contattaci.html" style="color:rgb(246, 9, 143);">CONTATTACI</a></div>
     	</div>
     	</label>   	 
     	<div id="header-logo">
