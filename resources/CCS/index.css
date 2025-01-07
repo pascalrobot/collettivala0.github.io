@@ -20,6 +20,13 @@
 
 }
 
+.data-n {
+  font-style: oblique;
+  color: white;
+  padding: 6px;
+  width: 100%;
+  margin-top: none;
+}
 
 .prev {
   position: relative;
@@ -28,11 +35,11 @@
   vertical-align: middle;
   overflow: hidden;
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 25px;
   margin-right: 10px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: white;
   white-space: nowrap;
 }
 
@@ -43,8 +50,8 @@
   display: inline-block;
   padding: 8px 16px;
   vertical-align: middle;
-  color: black;
-  background-color: transparent;
+  color: rgb(0, 0, 0);
+  background-color: white;
   overflow: hidden;
   text-align: center;
   cursor: pointer;
@@ -838,15 +845,78 @@ secondaryDetails[open] secondarySummary span.icon {
 
 @media (min-width: 1200px) {
 
+  .contenitore-index-n {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .sottotitolo-n {
+    font-style: oblique;
+    background: rgba(255, 255, 255, 0.686);
+    box-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding: 6px;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 2px black solid;
+    position: relative; 
+    max-width: 400px; 
+    margin-top: 20px;
+  }
+
+  
+  .titolo-flex-index-n {
+    display: flex; 
+    flex-direction: row;
+    width: 33.33%;
+    height: 400px;
+  }
+  
+  .foto-articolo-n {
+    width: 100%;
+    max-height: 500px;
+    background-size: cover;
+    background-origin: center;  
+    background-position: center;
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .final-n {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: fit-content;
+    position:relative;  
+  }
+  
+  .myDIV-index-n {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-variant: small-caps slashed-zero;
+    font-weight: 400;
+    position: relative; 
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+  }
+  
 
 .legenda-parent-mobile {
   display: none;
 }
 
   .container-real {
-    background-color:  rgb(212, 212, 212); 
+    background-color: rgba(0, 0, 0, 0.48);
     padding: 40px;
     padding-top: -40px;
+    border: 2px solid rgb(0, 106, 255); 
     width: 1000px;
     border: 2px solid black;
     margin-bottom: 60px;
@@ -1536,7 +1606,6 @@ secondaryDetails[open] secondarySummary span.icon {
     height: 40px;
     width: fit-content;
     align-content: center;
-    margin-top: 10px;
     margin-bottom: 30px;
     white-space: nowrap;
     margin-left: auto;
@@ -1544,19 +1613,35 @@ secondaryDetails[open] secondarySummary span.icon {
     font-size: 27px;
     vertical-align: middle;
     overflow: hidden;
-    color: black;
-    font-weight: bolder;
+    color: white;   
+    font-style:italic; 
     position: relative;
     padding: 6px;
+  }
+
+  .titolo-tv-n {
+    height: fit-content;
+    width: fit-content;
+    align-content: center;
+    margin-top: -30px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    margin-left: auto;
+    font-size: 40px; 
+    margin-right: auto;
+    vertical-align: middle;
+    overflow: hidden;
+    color: rgb(255, 0, 128);   
+    font-weight: bolder;
+    position: relative;
   }
   
   .slideshow-container {
       text-align: center;
-      box-shadow: 6px 6px 0 rgb(0, 100, 17);
       margin-left: auto;
       margin-right: auto;
       position: relative;
-      height: 600px;
+      height: 690px;
       padding: 20px;
       border: 2px solid black;
       line-height: 1.4;
@@ -1607,6 +1692,38 @@ secondaryDetails[open] secondarySummary span.icon {
   position: relative;
 }
 
+.rettangolo-n {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.48);
+  border: 2px solid rgb(109, 109, 109);
+  margin: 20px;
+  padding: 10px;
+  scrollbar-width: 5px;
+  scrollbar-color: rgba(171, 66, 212, 0.194);
+  overflow: scroll;
+  height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+
+.rettangolo-n2 {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.48);
+  border: 2px solid rgb(0, 119, 8);
+  margin: 20px;
+  padding: 10px;
+  scrollbar-width: 5px;
+  scrollbar-color: rgba(171, 66, 212, 0.194);
+  height: 670px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
 .descrizione-categoria {
   margin: 10px;
   color: rgb(160, 160, 160);
@@ -1620,6 +1737,17 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-top: 20px;
   scrollbar-width: 5px;
   scrollbar-color: rgba(171, 66, 212, 0.194);
+}
+
+.descrizione-categoria-n {
+  margin: 10px;
+  color: rgb(160, 160, 160);
+  text-align: justify;
+  padding: 10px;
+  font-weight: 300;
+  backdrop-filter: blur(4px);
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
 }
 
 .sottotitolo-cellulare {
@@ -1760,12 +1888,9 @@ secondaryDetails[open] secondarySummary span.icon {
     word-spacing: 10px;
     font-size: large;
     height: fit-content;
-    color:rgb(0, 74, 14);
+    color:rgb(255, 255, 255);
   }
 
-  .social-mobile {
-    display: none;
-  }
 
 .libro2 {
     background-color:  rgb(180, 164, 178); 
@@ -1907,10 +2032,9 @@ secondaryDetails[open] secondarySummary span.icon {
 }
 
 .scaffale {
-  background-color:  rgb(212, 212, 212); 
   padding: 20px;
   padding-bottom: 25px;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid rgb(211, 0, 0);
   width: 900px;
   height: 400px;
   margin-bottom: 20px;
@@ -1957,6 +2081,18 @@ secondaryDetails[open] secondarySummary span.icon {
   box-shadow: 6px 6px 0  rgb(0, 100, 17);
   transition: all 0.2s;
   }
+
+  .title-n {
+    text-align: center; 
+    padding: 10px;
+    margin-top: 40px;   
+    color: rgb(0, 0, 0);
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    transition: all 0.2s;
+    }
 
 .title3 {
   text-align: center; 
@@ -2017,24 +2153,52 @@ display: none;
 
 @media (max-width: 890px) {
 
+
+  .social {
+    width: 100%;
+    height: 200px;
+    justify-content: center; 
+    text-align: center;
+    border-bottom: 10px;
+    margin-bottom: 35px;
+    word-spacing: 10px;
+    color:rgb(255, 255, 255);
+  }
+
   .titolo-tv {
     align-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 25px;
+    font-size: 20px;
     vertical-align: middle;
     overflow: hidden;
-    color: black;
-    font-weight: bolder;
+    font-style: italic; 
+    color: white;   
     position: relative;
     padding: 6px;
   }
   
+  .titolo-tv-n {
+    height: fit-content;
+    width: fit-content;
+    align-content: center;
+    margin-top: -30px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    margin-left: auto;
+    font-size: 37px; 
+    margin-right: auto;
+    vertical-align: middle;
+    overflow: hidden;
+    color: rgb(255, 0, 128);   
+    font-weight: bolder;
+    position: relative;
+  }
+  
   .slideshow-container {
       text-align: center;
-      box-shadow: 6px 6px 0 rgb(0, 100, 17);
       margin-left: auto;
       margin-right: auto;
       position: relative;
@@ -2164,6 +2328,35 @@ display: none;
   padding: 10px;
 }
 
+.rettangolo-n {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.48);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  scrollbar-width: 5px;
+  scrollbar-color: rgba(171, 66, 212, 0.194);
+  overflow: scroll;
+}
+
+
+
+.rettangolo-n2 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.48);
+  margin: 20px;
+  padding: 10px;
+  scrollbar-width: 5px;
+  scrollbar-color: rgba(171, 66, 212, 0.194);
+  height: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
 .descrizione-categoria {
   margin: 10px;
   color: rgb(160, 160, 160);
@@ -2179,6 +2372,16 @@ display: none;
   scrollbar-color: rgba(171, 66, 212, 0.194);
 }
 
+.descrizione-categoria-n {
+  margin: 13px;
+  color: rgb(160, 160, 160);
+  text-align: justify;
+  padding: 10px;
+  backdrop-filter: blur(4px);
+  font-family: 'Times New Roman', Times, serif;
+  scrollbar-width: 5px;
+  scrollbar-color: rgba(171, 66, 212, 0.194);
+}
 
   .sottotitolo-cellulare {
     margin: none;
@@ -2269,21 +2472,6 @@ display: none;
     
   }
 
-  .social-mobile {
-    width: 100%;
-    justify-content: center; 
-    text-align: center;
-    border-bottom: 10px;
-    padding-bottom: 25px;
-    word-spacing: 10px;
-    font-size: large;
-    height: fit-content;
-    color:rgba(1, 78, 14, 0.475);
-  }
-  
-  .social {
-    display: none;
-  }
 
 
 .scaffale2 {
@@ -2496,6 +2684,21 @@ display: none;
     margin-right: auto;
 }
 
+.title-n {
+  text-align: center; 
+  padding: 2%;
+  color: rgb(0, 0, 0); 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 90%;
+  font-size: smaller;
+  margin-bottom: 25px;
+  margin-top: 9px;
+  border: 2px solid black;
+  transition: all 0.2s;
+  }
+
 .title3 {
   text-align: center; 
   padding: 10px;
@@ -2564,8 +2767,69 @@ display: none;
 
 @media (max-width: 1200px) {
 
+  .contenitore-index-n {
+    display: flex; 
+    flex-wrap: column;
+    flex-direction: column;
+  }
+
+
+  .sottotitolo-n {
+    font-style: oblique;
+    box-shadow: 4px 4px 0 rgb(0, 0, 0);
+    padding: 6px;
+    background: rgba(255, 255, 255, 0.757);
+    border: 2px black solid;
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative; 
+    max-width: 300px; 
+    font-size: small;
+    margin-top: 20px;
+  }
+  
+  .titolo-flex-index-n {
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .foto-articolo-n {
+    max-height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .final-n {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: fit-content;
+    position:relative;  
+  }
+  
+  .myDIV-index-n {
+    text-align: center;
+    font-variant: small-caps slashed-zero;
+    font-weight: 400;
+    position: relative; 
+    font-size: 39px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+  }  
+
+
  .container-real {
-  background-color:  rgb(212, 212, 212);
+  background-color: rgba(0, 0, 0, 0.48);
   padding-bottom: 25px;
   padding-right: 5px;
   padding-left: 5px; 
@@ -2584,10 +2848,10 @@ display: none;
 }
 
 .legenda-parent-mobile {
-  width: 80%;
+  width: 255px;
   color: rgb(103, 0, 86);
   height: fit-content;
-  background-color: rgba(0, 255, 183, 0.1);
+  background-color: rgb(174, 174, 174);
   display: flex;
   align-items: top;
   display: -webkit-box; 
@@ -2597,7 +2861,8 @@ display: none;
   margin-right: auto;
   position: relative;
   border-radius: 20px;
-  padding: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
   flex-flow: column;
   padding-left: 10px;
   margin-top: -20px;

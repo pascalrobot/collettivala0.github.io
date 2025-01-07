@@ -19,7 +19,6 @@ class Header extends HTMLElement {
       	<div id="myDropdown1" class="dropdown-content1">
         	<a href="schizzidalladistopia.html">Schizzi dalla Distopia</a>
         	<a href="distopiaintemporeale.html">Distopia in Tempo Reale</a>
-        	<a href="teoriaperil99percento.html"> Teoria per il 99%</a>
       	</div>
     	</div>
 			<div class="dropdown" id="articles">
@@ -27,6 +26,7 @@ class Header extends HTMLElement {
       	<div id="myDropdown3" class="dropdown-content3">
         	<a href="bibliotecadigitale.html"><i>Vai agli Scaffali ></i></a>
         	<a href="dispenseinmovimento.html">Dispense in Movimento</a>
+<a href="teoriaperil99percento.html"> Teoria per il 99%</a>
       	</div>
     	</div>
 
