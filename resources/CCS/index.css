@@ -1150,7 +1150,7 @@ secondaryDetails[open] secondarySummary span.icon {
   font-weight: 600;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 320px;
+  margin-top: 250px;
   position: relative; 
   font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
@@ -1203,7 +1203,6 @@ secondaryDetails[open] secondarySummary span.icon {
     padding: 8px;
     height: fit-content;
     background-color: rgb(0, 0, 0);
-    margin-top: -18px;
 }
 
 .sottotitolo-index {
@@ -3203,8 +3202,8 @@ display: none;
   height: fit-content; 
   margin-left: auto;
   margin-right: auto;
-  position: relative; 
-  margin-top: 140px;
+  position: relative;
+  margin-top: 35px;
   color: rgb(198, 198, 198); 
   font-family: 'Times New Roman', Times, serif;
   font-size: 28px;
@@ -3232,7 +3231,7 @@ display: none;
   color: rgb(198, 198, 198); 
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
-  margin-top: 10px;
+  margin-bottom: 35px;
   font-style: bold;
   text-shadow: rgb(0, 0, 0) 4px 0 20px;
 }
@@ -3249,7 +3248,6 @@ display: none;
     padding: 8px;
     height: 40px;
     background-color: rgb(0, 0, 0);
-    margin-top: -15px;
 }
 
 .foto-nota {
