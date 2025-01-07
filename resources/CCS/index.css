@@ -1186,6 +1186,9 @@ secondaryDetails[open] secondarySummary span.icon {
   display: flex;
   flex-direction: column;
   width: 700px;
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .sottotitolo {
@@ -1248,7 +1251,6 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-left: 20px;
   padding: 4px;
   box-shadow: -8px -8px rgb(180, 50, 108);;
-  margin-top: 110px;
   position: relative; 
 }
 
@@ -1286,7 +1288,7 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-left: 20px;
   padding: 4px;
   box-shadow: -8px -8px rgb(0, 106, 9);
-  margin-top: 110px;
+
   position: relative; 
 }
 
@@ -1324,7 +1326,7 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-left: 20px;
   padding: 4px;
   box-shadow: -8px -8px rgb(0, 106, 255);
-  margin-top: 110px;
+
   position: relative; 
 }
 
@@ -1343,7 +1345,7 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-left: 20px;
   padding: 4px;
   box-shadow: -8px -8px rgb(255, 196, 0);
-  margin-top: 110px;
+
   position: relative; 
 }
 
@@ -1381,7 +1383,7 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-left: 20px;
   padding: 4px;
   box-shadow: -8px -8px rgb(255, 29, 29);
-  margin-top: 110px;
+
   position: relative; 
 }
 
@@ -3134,7 +3136,7 @@ display: none;
   display: flex; 
   flex-direction: row;
   width: 100%;
-  height: 550px;
+  height: 400px;
 }
 
 .myDIV-index {
@@ -3191,6 +3193,9 @@ display: none;
 .final {
   display: flex;
   flex-direction: column;
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .data-articolo {
