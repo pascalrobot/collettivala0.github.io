@@ -91,6 +91,20 @@ hr {
   background: #15a83722;
 } 
 
+.info-articolo2 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1%;
+  margin-bottom: 5%;
+  width: 300px;
+  height: fit-content;
+  font-weight: 600;
+  padding: 1%; 
+  text-align: center;
+  border: 3px dotted rgb(169, 0, 85);
+}
+
 .info-articolo {
   position: relative;
   margin-left: auto;
@@ -1150,7 +1164,7 @@ secondaryDetails[open] secondarySummary span.icon {
   font-weight: 600;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 250px;
+  margin-top: 270px;
   position: relative; 
   font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
