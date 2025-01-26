@@ -1074,7 +1074,7 @@ secondaryDetails[open] secondarySummary span.icon {
   margin-left: 23%;
   margin-right: 23%; 
   text-align: justify;
-  font-size: larger;
+  font-size: large;
   margin-top: 4%;
   display: block;
   margin-bottom: 4%;
@@ -3239,7 +3239,7 @@ display: none;
   margin-left: 5%;
   margin-right: 5%; 
   text-align: justify;
-  font-size: larger;
+  font-size: large;
   padding-top: 30px;
   padding-bottom: 8%;
   display: block;
