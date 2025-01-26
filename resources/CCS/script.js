@@ -144,3 +144,54 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+
+function myFunction11() {
+  var popup = document.getElementById("myPopup1");
+  popup.classList.toggle("show");
+}
+
+function myFunction22() {
+  var popup = document.getElementById("myPopup2");
+  popup.classList.toggle("show");
+}
+
+function myFunction33() {
+  var popup = document.getElementById("myPopup3");
+  popup.classList.toggle("show");
+}
+
+function myFunction44() {
+  var popup = document.getElementById("myPopup4");
+  popup.classList.toggle("show");
+}
+
+function myFunction55() {
+  var popup = document.getElementById("myPopup5");
+  popup.classList.toggle("show");
+}
+
+function myFunction66() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
+function myFunction77() {
+  var popup = document.getElementById("myPopup2");
+  popup.classList.toggle("show");
+}
+
+function myFunction88() {
+  var popup = document.getElementById("myPopup3");
+  popup.classList.toggle("show");
+}
+
+function myFunction99() {
+  var popup = document.getElementById("myPopup4");
+  popup.classList.toggle("show");
+}
+
+function myFunction10() {
+  var popup = document.getElementById("myPopup5");
+  popup.classList.toggle("show");
+}
