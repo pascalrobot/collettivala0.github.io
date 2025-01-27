@@ -1086,7 +1086,7 @@ secondaryDetails[open] secondarySummary span.icon {
   text-align: right;
   margin-left: -255px;
   padding-right: 30px;
-  font-size: medium;
+  font-size: small;
   font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
@@ -1096,7 +1096,7 @@ secondaryDetails[open] secondarySummary span.icon {
   text-align: left;
   margin-right: -255px;
   padding-left: 30px;
-  font-size: medium;
+  font-size: small;
   font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
@@ -2256,31 +2256,19 @@ display: none;
   /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
-    width: fit-content;
-    max-width: 200px;
+    width: 160px;
     background-color: #555;
     color: #fff;
     text-align: left;
+    font-size: smaller;
     padding: 8px;
     border-radius: 8px;
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     bottom: 125%;
-    left: 50%;
-    margin-left: -25px;
+    right: 45%;
   }
   
-  /* Popup arrow */
-  .popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-  }
   
   /* Toggle this class - hide and show the popup */
   .popup .show {

@@ -172,26 +172,26 @@ function myFunction55() {
 }
 
 function myFunction66() {
-  var popup = document.getElementById("myPopup");
+  var popup = document.getElementById("myPopup6");
   popup.classList.toggle("show");
 }
 
 function myFunction77() {
-  var popup = document.getElementById("myPopup2");
+  var popup = document.getElementById("myPopup7");
   popup.classList.toggle("show");
 }
 
 function myFunction88() {
-  var popup = document.getElementById("myPopup3");
+  var popup = document.getElementById("myPopup8");
   popup.classList.toggle("show");
 }
 
 function myFunction99() {
-  var popup = document.getElementById("myPopup4");
+  var popup = document.getElementById("myPopup9");
   popup.classList.toggle("show");
 }
 
 function myFunction10() {
-  var popup = document.getElementById("myPopup5");
+  var popup = document.getElementById("myPopup10");
   popup.classList.toggle("show");
 }
