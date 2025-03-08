@@ -1052,6 +1052,19 @@ secondaryDetails[open] secondarySummary span.icon {
   width: 100%;
 }
 
+.main-content-articoli-pillole {
+  background: rgb(212, 212, 212);
+    align-items: center;
+    text-align: left;
+    margin: none;
+    width: 70%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .main-content-articoli {
   background: rgb(212, 212, 212);
   align-items: center;
@@ -1068,10 +1081,20 @@ secondaryDetails[open] secondarySummary span.icon {
   height: 400px;
 }
 
-
 .testo-articolo {
   margin-left: 23%;
   margin-right: 23%; 
+  text-align: justify;
+  font-size: large;
+  margin-top: 4%;
+  display: block;
+  margin-bottom: 4%;
+}
+
+
+.testo-articolo-pillole {
+  margin-left: 15%;
+  margin-right: 15%; 
   text-align: justify;
   font-size: large;
   margin-top: 4%;
@@ -1619,6 +1642,23 @@ secondaryDetails[open] secondarySummary span.icon {
 
 @media (min-width: 890px) {
 
+  .pillole {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    width: 70%;
+    
+    }
+
+    .contenitore-pillole {
+      margin-bottom: 5%;
+      color: rgb(85, 32, 32);
+      width: 80%; 
+      margin-left: auto;
+      font-size: 20px;
+      margin-right: auto;
+      text-align: center;
+    }
 
   .titolo-tv {
     height: 40px;
@@ -1899,14 +1939,15 @@ secondaryDetails[open] secondarySummary span.icon {
 
   .social {
     width: 100%;
-    justify-content: center; 
-    text-align: center;
+    text-align: justify;
     border-bottom: 10px;
     margin-bottom: 35px;
     word-spacing: 10px;
     font-size: large;
     height: fit-content;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    background-color: rgb(212, 212, 212);
+    padding: 30px;
   }
 
 
@@ -2171,17 +2212,33 @@ display: none;
 
 @media (max-width: 890px) {
 
+  .contenitore-pillole {
+    margin-bottom: 10px;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 
+  .pillole {
+    margin-bottom: 5%;
+    width: 70%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
 
   .social {
     width: 100%;
-    height: 200px;
+    height: auto;
     justify-content: center; 
-    text-align: center;
+    text-align: justify;
     border-bottom: 10px;
     margin-bottom: 35px;
+    padding: 10px;
+    background-color: rgb(212, 212, 212);
     word-spacing: 10px;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
   }
 
   .titolo-tv {
@@ -3232,6 +3289,16 @@ display: none;
   display: block;
 }
 
+.testo-articolo-pillole {
+  margin-left: 5%;
+  margin-right: 5%; 
+  text-align: justify;
+  font-size: large;
+  padding-top: 30px;
+  padding-bottom: 8%;
+  display: block;
+}
+
 .tag-articolo {
   text-align: center;
   height: fit-content; 
@@ -3303,6 +3370,18 @@ display:none;
   height: 100%;
   padding-top: 80px;
   padding-bottom: 5%;
+}
+
+.main-content-articoli-pillole
+{
+  background: rgb(212, 212, 212);
+  align-items: center;
+  text-align: left;
+  margin: none;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 5%; 
 }
 
 .descrizione-foto {
