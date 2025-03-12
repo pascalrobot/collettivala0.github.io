@@ -8,6 +8,16 @@
   box-sizing: border-box;
 }
 
+
+.condividi {
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 30px;
+  font-weight: 900;
+  color: red;
+}
+
 .pernota {
   font-family: "Crimson Text",Georgia,Cambria,"Times New Roman",Times,serif;
 
@@ -1650,6 +1660,17 @@ secondaryDetails[open] secondarySummary span.icon {
     
     }
 
+    .itchio-computer {
+text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    .itchio-cellulare {
+display: none; 
+    }
+
     .contenitore-pillole {
       margin-bottom: 5%;
       color: rgb(85, 32, 32);
@@ -1737,6 +1758,10 @@ secondaryDetails[open] secondarySummary span.icon {
   width: 460px;
   overflow-y: scroll;
 }
+
+
+
+
 
 .rettangolo {
   width: 310px;
@@ -2218,6 +2243,18 @@ display: none;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+
+
+
+  .itchio-cellulare {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+  .itchio-computer {
+    display: none;
   }
 
   .pillole {
