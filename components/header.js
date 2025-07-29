@@ -31,7 +31,7 @@ class Header extends HTMLElement {
     	</div>
 
     	<div id="header-logo">
-      	<a href="index.html"> <img src= "https://i.ibb.co/LgYj2hy/SITO.png" alt="la 0" class="center"> </a>   
+      	<a href="index.html"> <img src= "https://github.com/pascalrobot/collettivala0.github.io/blob/main/imgs/(no-bg)%20LA%200.png?raw=true" alt="la 0" class="center"> </a>   
     	</div>
     	<div class="container">
 <i>C O M I N G<br>S O O N</i>
@@ -69,7 +69,7 @@ class Header extends HTMLElement {
     	</div>
     	</label>   	 
     	<div id="header-logo">
-      	<a href="index.html"> <img src= "https://i.ibb.co/LgYj2hy/SITO.png" alt="la 0" class="center"> </a>   
+      	<a href="index.html"> <img src= "https://github.com/pascalrobot/collettivala0.github.io/blob/main/imgs/(no-bg)%20LA%200.png?raw=true" alt="la 0" class="center"> </a>   
     	</div>
  	 
   	</section>
